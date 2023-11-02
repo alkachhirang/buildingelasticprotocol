@@ -4,13 +4,13 @@ import cloudimg from '../assets/images/png/cloud-bull-img.png'
 
 function Amplify() {
     return (
-        <div classNameName='amplify_bg_img amplify_bg_img1 min_vh_100 h_350 h_sm_500 d-flex flex-column position-relative mt-5'>
-            <img src={cloudimg} alt="cloudimg" classNameName='position-absolute start-0 w-100 z-2 cloud_img d-none d-md-block' />
-            <div classNameName='d-flex justify-content-center'>
-                <h2 classNameName='ff_jakarta text-white fs_52 fw-bolder mb-0 pt-1 pt-xxl-4 bg-black pb-2 pt-lg-3 '>Amplify and stretch gains</h2>
+        <div className='amplify_bg_img amplify_bg_img1 min_vh_100 h_350 h_sm_500 d-flex flex-column position-relative mt-5'>
+            <img src={cloudimg} alt="cloudimg" className='position-absolute start-0 w-100 z-2 cloud_img d-none d-md-block' />
+            <div className='d-flex justify-content-center'>
+                <h2 className='ff_jakarta text-white fs_52 fw-bolder mb-0 pt-1 pt-xxl-4 bg-black pb-2 pt-lg-3 '>Amplify and stretch gains</h2>
             </div>
-            <Container classNameName='d-flex flex-column justify-content-center align-items-center flex-sm-grow-1'>
-                <p classNameName='text-white ff_raleway fw-normal fs_14 mw_554 text-center pt_187 pt-sm-0 pt_209 pt_227'>We take a different balanced approach to finding and creating yield opportunities in the everchanging crypto market. Our yield strategies help users stay protected and hedged during bear markets and amplify yield during bull markets without resorting to leverage or other dangerous techniques.</p>
+            <Container className='d-flex flex-column justify-content-center align-items-center flex-sm-grow-1'>
+                <p className='text-white ff_raleway fw-normal fs_14 mw_554 text-center pt_187 pt-sm-0 pt_209 pt_227'>We take a different balanced approach to finding and creating yield opportunities in the everchanging crypto market. Our yield strategies help users stay protected and hedged during bear markets and amplify yield during bull markets without resorting to leverage or other dangerous techniques.</p>
             </Container>
         </div>
     )

@@ -522,15 +522,18 @@ textarea::placeholder {
   padding-bottom: 100px;
   padding-top: 100px;
 }
-.pt_90{
+
+.pt_90 {
   padding-top: 90px;
 }
-.pb_100{
+
+.pb_100 {
   padding-bottom: 100px;
 }
- .mb_57 {
-   margin-bottom: -57px !important;
- }
+
+.mb_57 {
+  margin-bottom: -57px !important;
+}
 
 .view_btn {
   background: linear-gradient(93deg, #1643C3 10.24%, #369EFE 208.68%);
@@ -558,6 +561,7 @@ textarea::placeholder {
   padding-top: 126px;
   padding-bottom: 126px;
 }
+
 .text-blue {
   color: #1643C3;
 }
@@ -593,7 +597,8 @@ textarea::placeholder {
 .hover_effect:hover .hover_card {
   opacity: 1 !important;
 }
-.pb_82{
+
+.pb_82 {
   padding-bottom: 82px;
 }
 
@@ -607,7 +612,7 @@ textarea::placeholder {
   cursor: pointer !important;
 }
 
-.gap_12 {
+.gap-2 {
   gap: 12px;
 }
 
@@ -648,7 +653,7 @@ textarea::placeholder {
 }
 
 .card_img {
-  height: 30%;
+  height: 20%;
   object-fit: cover;
   object-position: top;
 }
@@ -991,7 +996,8 @@ body {
     --fs-2xxl: 52px;
     --fs-8xxxl: 85px;
   }
-  .cloud_img{
+
+  .cloud_img {
     bottom: -9% !important;
     right: 0;
 
@@ -1002,16 +1008,19 @@ body {
   .mw_521 {
     max-width: 521px !important;
   }
-    .py_tokenonics {
-      padding-bottom: 140px;
-      padding-top: 145px;
-    }
-        .mb_45 {
-          margin-bottom: -45px;
-        }
-        .mw_882{
-          max-width: 882px;
-        }
+
+  .py_tokenonics {
+    padding-bottom: 140px;
+    padding-top: 145px;
+  }
+
+  .mb_45 {
+    margin-bottom: -45px;
+  }
+
+  .mw_882 {
+    max-width: 882px;
+  }
 
   .mw_448 {
     max-width: 448px;
@@ -1109,10 +1118,11 @@ body {
     --fs-2xxl: 52px;
     --fs-8xxxl: 68px !important;
   }
-     .cloud_img {
-       bottom: -11% !important;
-       right: 0;
-     }
+
+  .cloud_img {
+    bottom: -11% !important;
+    right: 0;
+  }
 }
 
 @media (min-width:576px) and (max-width:768px) {
@@ -1166,9 +1176,10 @@ body {
     --fs-2xxl: 42px;
     --fs-8xxxl: 46px;
   }
-     .cloud_img {
-       bottom: -12% !important;
-       right: 0;
-  
-     }
+
+  .cloud_img {
+    bottom: -12% !important;
+    right: 0;
+
+  }
 }

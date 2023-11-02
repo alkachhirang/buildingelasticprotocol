@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './components/Header'
+import Header from './components/Header';
 import Amplify from './components/Amplify';
 import Contact from './components/Contact';
 import Core from './components/Core';
@@ -25,7 +25,6 @@ function App() {
       <Roadmap />
       <Contact />
       <Footer />
-
     </div>
   );
 }

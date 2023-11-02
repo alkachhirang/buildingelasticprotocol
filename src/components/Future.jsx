@@ -36,13 +36,13 @@ import JonesDao from "../assets/images/png/JonesDao.png";
 const Strategies = () => {
     return (
         <>
-            <div classNameName="bg_Strategies bg-white py_startegies">
+            <div className="bg_Strategies bg-white py_startegies">
                 <Container>
-                    <div classNameName="d-flex flex-column justify-content-center align-items-center">
-                        <h2 classNameName="text-blue fs_46 ff_NeueMachinaBold lh_120 text-capitalize text-center mb-0 pb-3">
+                    <div className="d-flex flex-column justify-content-center align-items-center">
+                        <h2 className="text-blue fs_46 ff_NeueMachinaBold lh_120 text-capitalize text-center mb-0 pb-3">
                             Future Use Cases (Strategies)
                         </h2>
-                        <p classNameName="text-center fs_16  text-black opacity_8 lh_160 ff-raleway mw_882 mb-0 pb_82">
+                        <p className="text-center fs_16  text-black opacity_8 lh_160 ff-raleway mw_882 mb-0 pb_82">
                             Elastic Protocol will continue to pioneer an expanding ecosystem
                             of yield strategies that will cater to DeFi users across a range
                             of blockchains, communities, and interests. Each will help in
@@ -52,533 +52,533 @@ const Strategies = () => {
                         </p>
                     </div>
                     <Row>
-                        <Col lg={4} md={6} classNameName="col-12">
-                            <div classNameName="hover_effect position-relative">
+                        <Col lg={4} md={6} className="col-12">
+                            <div className="hover_effect position-relative">
                                 <img
                                     src={cardImg1}
                                     alt="CardImg1"
-                                    classNameName="w-100 rounded-2 cards_img"
+                                    className="w-100 rounded-2 cards_img"
                                 />
-                                <button classNameName="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
+                                <button className="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
                                     NFT
                                 </button>
-                                <div classNameName="img_box">
+                                <div className="img_box">
                                     <img
                                         src={SmallImg1}
                                         alt="SmallImg1"
-                                        classNameName="w-100 mw_74 rounded-2"
+                                        className="w-100 mw_74 rounded-2"
                                     />
                                 </div>
-                                <div classNameName="position-absolute nft_card">
-                                    <p classNameName="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                <div className="position-absolute nft_card">
+                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         NFT
                                     </p>
-                                    <p classNameName="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
+                                    <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
                                         24 NFTs
                                     </p>
-                                    <div classNameName="btn_box d-flex align-items-center gap-2 mt-3">
+                                    <div className="btn_box d-flex align-items-center gap-2 mt-3">
                                         <img src={CircleImg1} alt="CircleImg1" />
-                                        <p classNameName="mb-0 text-white">@NFTs</p>
+                                        <p className="mb-0 text-white">@NFTs</p>
                                     </div>
                                 </div>
-                                <div classNameName="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
+                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
                                     <img
                                         src={SmallImg2}
                                         alt="SmallImg2"
-                                        classNameName="w-100 card_img"
+                                        className="w-100 card_img"
                                     />
-                                    <p classNameName="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
                                         REAL YIELD
                                     </p>
-                                    <p classNameName="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p classNameName="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p classNameName="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
                                         Platforms:{" "}
                                     </p>
-                                    <div classNameName="d-flex gap_12">
-                                        <img src={Arbiturm} alt="Arbiturm" classNameName="common_img" />
-                                        <img src={GMX} alt="GMX" classNameName="common_img" />
-                                        <img src={Vela} alt="Vela" classNameName="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" classNameName="common_img" />
+                                    <div className="d-flex gap-2">
+                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
+                                        <img src={GMX} alt="GMX" className="common_img" />
+                                        <img src={Vela} alt="Vela" className="common_img" />
+                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
                                     </div>
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4} md={6} classNameName="col-12 pt-4 pt-md-0">
-                            <div classNameName="position-relative hover_effect">
+                        <Col lg={4} md={6} className="col-12 pt-4 pt-md-0">
+                            <div className="position-relative hover_effect">
                                 <img
                                     src={cardImg1}
                                     alt="cardImg1"
-                                    classNameName="w-100 rounded-2 cards_img"
+                                    className="w-100 rounded-2 cards_img"
                                 />
-                                <button classNameName="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
+                                <button className="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
                                     NFT
                                 </button>
-                                <div classNameName="img_box">
+                                <div className="img_box">
                                     <img
                                         src={SmallImg1}
                                         alt="SmallImg1"
-                                        classNameName="w-100 mw_74 rounded-2"
+                                        className="w-100 mw_74 rounded-2"
                                     />
                                 </div>
-                                <div classNameName="position-absolute nft_card">
-                                    <p classNameName="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                <div className="position-absolute nft_card">
+                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         NFT
                                     </p>
-                                    <p classNameName="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
+                                    <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
                                         24 NFTs
                                     </p>
-                                    <div classNameName="btn_box d-flex align-items-center gap-2 mt-3">
+                                    <div className="btn_box d-flex align-items-center gap-2 mt-3">
                                         <img src={CircleImg1} alt="CircleImg1" />
-                                        <p classNameName="mb-0 text-white">@NFTs</p>
+                                        <p className="mb-0 text-white">@NFTs</p>
                                     </div>
                                 </div>
-                                <div classNameName="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
+                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
                                     <img
                                         src={SmallImg1}
                                         alt="SmallImg1"
-                                        classNameName="w-100 card_img"
+                                        className="w-100 card_img"
                                     />
-                                    <p classNameName="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
                                         REAL YIELD
                                     </p>
-                                    <p classNameName="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p classNameName="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p classNameName="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
                                         Platforms:{" "}
                                     </p>
-                                    <div classNameName="d-flex gap_12">
-                                        <img src={Arbiturm} alt="Arbiturm" classNameName="common_img" />
-                                        <img src={GMX} alt="GMX" classNameName="common_img" />
-                                        <img src={Vela} alt="Vela" classNameName="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" classNameName="common_img" />
+                                    <div className="d-flex gap-2">
+                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
+                                        <img src={GMX} alt="GMX" className="common_img" />
+                                        <img src={Vela} alt="Vela" className="common_img" />
+                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
                                     </div>
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4} md={6} classNameName="col-12 pt-4 pt-lg-0">
-                            <div classNameName="position-relative  hover_effect">
+                        <Col lg={4} md={6} className="col-12 pt-4 pt-lg-0">
+                            <div className="position-relative  hover_effect">
                                 <img
                                     src={cardImg3}
                                     alt="cardImg3"
-                                    classNameName="w-100 rounded-2 cards_img"
+                                    className="w-100 rounded-2 cards_img"
                                 />
-                                <button classNameName="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal text-uppercase">
+                                <button className="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal text-uppercase">
                                     OPTIONS
                                 </button>
-                                <div classNameName="img_box">
+                                <div className="img_box">
                                     <img
                                         src={SmallImg3}
                                         alt="SmallImg3"
-                                        classNameName="w-100 mw_74 rounded-2"
+                                        className="w-100 mw_74 rounded-2"
                                     />
                                 </div>
-                                <div classNameName="position-absolute nft_card">
-                                    <p classNameName="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0 text-uppercase">
+                                <div className="position-absolute nft_card">
+                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0 text-uppercase">
                                         OPTIONS
                                     </p>
-                                    <p classNameName="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
+                                    <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
                                         24 NFTs
                                     </p>
-                                    <div classNameName="btn_box d-flex align-items-center gap-2 mt-3">
+                                    <div className="btn_box d-flex align-items-center gap-2 mt-3">
                                         <img src={CircleImg3} alt="CircleImg3" />
-                                        <p classNameName="mb-0 text-white">@OPTIONS</p>
+                                        <p className="mb-0 text-white">@OPTIONS</p>
                                     </div>
                                 </div>
-                                <div classNameName="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
+                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
                                     <img
                                         src={cardImg3}
                                         alt="cardImg3"
-                                        classNameName="w-100 card_img"
+                                        className="w-100 card_img"
                                     />
-                                    <p classNameName="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
                                         REAL YIELD
                                     </p>
-                                    <p classNameName="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p classNameName="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p classNameName="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
                                         Platforms:{" "}
                                     </p>
-                                    <div classNameName="d-flex gap_12">
-                                        <img src={Arbiturm} alt="Arbiturm" classNameName="common_img" />
-                                        <img src={GMX} alt="GMX" classNameName="common_img" />
-                                        <img src={Vela} alt="Vela" classNameName="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" classNameName="common_img" />
+                                    <div className="d-flex gap-2">
+                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
+                                        <img src={GMX} alt="GMX" className="common_img" />
+                                        <img src={Vela} alt="Vela" className="common_img" />
+                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
                                     </div>
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4} md={6} classNameName="col-12 py-4">
-                            <div classNameName="position-relative hover_effect">
+                        <Col lg={4} md={6} className="col-12 py-4">
+                            <div className="position-relative hover_effect">
                                 <img
                                     src={cardImg4}
                                     alt="cardImg4"
-                                    classNameName="w-100 rounded-2 cards_img"
+                                    className="w-100 rounded-2 cards_img"
                                 />
-                                <button classNameName="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
+                                <button className="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
                                     BONDs
                                 </button>
-                                <div classNameName="img_box">
+                                <div className="img_box">
                                     <img
                                         src={SmallImg4}
                                         alt="SmallImg4"
-                                        classNameName="w-100 mw_74 rounded-2"
+                                        className="w-100 mw_74 rounded-2"
                                     />
                                 </div>
-                                <div classNameName="position-absolute nft_card">
-                                    <p classNameName="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                <div className="position-absolute nft_card">
+                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         BONDs
                                     </p>
-                                    <p classNameName="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
+                                    <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
                                         24 NFTs
                                     </p>
-                                    <div classNameName="btn_box d-flex align-items-center gap-2 mt-3">
+                                    <div className="btn_box d-flex align-items-center gap-2 mt-3">
                                         <img src={CircleImg4} alt="CircleImg4" />
-                                        <p classNameName="mb-0 text-white">@BONDs</p>
+                                        <p className="mb-0 text-white">@BONDs</p>
                                     </div>
                                 </div>
-                                <div classNameName="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
+                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
                                     <img
                                         src={cardImg4}
                                         alt="cardImg4"
-                                        classNameName="w-100 card_img"
+                                        className="w-100 card_img"
                                     />
-                                    <p classNameName="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
                                         REAL YIELD
                                     </p>
-                                    <p classNameName="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p classNameName="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p classNameName="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
                                         Platforms:{" "}
                                     </p>
-                                    <div classNameName="d-flex gap_12">
-                                        <img src={Arbiturm} alt="Arbiturm" classNameName="common_img" />
-                                        <img src={GMX} alt="GMX" classNameName="common_img" />
-                                        <img src={Vela} alt="Vela" classNameName="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" classNameName="common_img" />
+                                    <div className="d-flex gap-2">
+                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
+                                        <img src={GMX} alt="GMX" className="common_img" />
+                                        <img src={Vela} alt="Vela" className="common_img" />
+                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
                                     </div>
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4} md={6} classNameName="col-12 py-lg-4">
-                            <div classNameName="position-relative hover_effect">
+                        <Col lg={4} md={6} className="col-12 py-lg-4">
+                            <div className="position-relative hover_effect">
                                 <img
                                     src={cardImg5}
                                     alt="cardImg5"
-                                    classNameName="w-100 rounded-2 cards_img"
+                                    className="w-100 rounded-2 cards_img"
                                 />
-                                <button classNameName="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
+                                <button className="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
                                     Social Trading
                                 </button>
-                                <div classNameName="img_box">
+                                <div className="img_box">
                                     <img
                                         src={SmallImg5}
                                         alt="SmallImg5"
-                                        classNameName="w-100 mw_74 rounded-2"
+                                        className="w-100 mw_74 rounded-2"
                                     />
                                 </div>
-                                <div classNameName="position-absolute nft_card">
-                                    <p classNameName="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                <div className="position-absolute nft_card">
+                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         Social Trading
                                     </p>
-                                    <p classNameName="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
+                                    <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
                                         24 NFTs
                                     </p>
-                                    <div classNameName="btn_box d-flex align-items-center gap-2 mt-3">
+                                    <div className="btn_box d-flex align-items-center gap-2 mt-3">
                                         <img src={CircleImg5} alt="CircleImg5" />
-                                        <p classNameName="mb-0 text-white">@Social Trading</p>
+                                        <p className="mb-0 text-white">@Social Trading</p>
                                     </div>
                                 </div>
-                                <div classNameName="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
+                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
                                     <img
                                         src={cardImg5}
                                         alt="cardImg5"
-                                        classNameName="w-100 card_img"
+                                        className="w-100 card_img"
                                     />
-                                    <p classNameName="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
                                         REAL YIELD
                                     </p>
-                                    <p classNameName="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p classNameName="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p classNameName="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
                                         Platforms:{" "}
                                     </p>
-                                    <div classNameName="d-flex gap_12">
-                                        <img src={Arbiturm} alt="Arbiturm" classNameName="common_img" />
-                                        <img src={GMX} alt="GMX" classNameName="common_img" />
-                                        <img src={Vela} alt="Vela" classNameName="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" classNameName="common_img" />
+                                    <div className="d-flex gap-2">
+                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
+                                        <img src={GMX} alt="GMX" className="common_img" />
+                                        <img src={Vela} alt="Vela" className="common_img" />
+                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
                                     </div>
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4} md={6} classNameName="col-12 py-lg-4 pt-4">
-                            <div classNameName="position-relative  hover_effect">
+                        <Col lg={4} md={6} className="col-12 py-lg-4 pt-4">
+                            <div className="position-relative  hover_effect">
                                 <img
                                     src={cardImg6}
                                     alt="cardImg6"
-                                    classNameName="w-100 rounded-2 cards_img"
+                                    className="w-100 rounded-2 cards_img"
                                 />
-                                <button classNameName="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
+                                <button className="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
                                     PERPS and Delta Neutral
                                 </button>
-                                <div classNameName="img_box">
+                                <div className="img_box">
                                     <img
                                         src={SmallImg6}
                                         alt="SmallImg6"
-                                        classNameName="w-100 mw_74 rounded-2"
+                                        className="w-100 mw_74 rounded-2"
                                     />
                                 </div>
-                                <div classNameName="position-absolute nft_card">
-                                    <p classNameName="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                <div className="position-absolute nft_card">
+                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         PERPS and Delta Neutral
                                     </p>
-                                    <p classNameName="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
+                                    <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
                                         24 NFTs
                                     </p>
-                                    <div classNameName="btn_box d-flex align-items-center gap-2 mt-3">
+                                    <div className="btn_box d-flex align-items-center gap-2 mt-3">
                                         <img src={CircleImg6} alt="CircleImg6" />
-                                        <p classNameName="mb-0 text-white">@PERPS and Delta Neutral</p>
+                                        <p className="mb-0 text-white">@PERPS and Delta Neutral</p>
                                     </div>
                                 </div>
-                                <div classNameName="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
+                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
                                     <img
                                         src={cardImg6}
                                         alt="cardImg6"
-                                        classNameName="w-100 card_img"
+                                        className="w-100 card_img"
                                     />
-                                    <p classNameName="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
                                         REAL YIELD
                                     </p>
-                                    <p classNameName="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p classNameName="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p classNameName="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
                                         Platforms:{" "}
                                     </p>
-                                    <div classNameName="d-flex gap_12">
-                                        <img src={Arbiturm} alt="Arbiturm" classNameName="common_img" />
-                                        <img src={GMX} alt="GMX" classNameName="common_img" />
-                                        <img src={Vela} alt="Vela" classNameName="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" classNameName="common_img" />
+                                    <div className="d-flex gap-2">
+                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
+                                        <img src={GMX} alt="GMX" className="common_img" />
+                                        <img src={Vela} alt="Vela" className="common_img" />
+                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
                                     </div>
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4} md={6} classNameName="col-12 pt-4 pt-lg-0">
-                            <div classNameName="position-relative  hover_effect">
+                        <Col lg={4} md={6} className="col-12 pt-4 pt-lg-0">
+                            <div className="position-relative  hover_effect">
                                 <img
                                     src={cardImg7}
                                     alt="cardImg7"
-                                    classNameName="w-100 rounded-2 cards_img"
+                                    className="w-100 rounded-2 cards_img"
                                 />
-                                <button classNameName="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
+                                <button className="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
                                     STABLECOINs
                                 </button>
-                                <div classNameName="img_box">
+                                <div className="img_box">
                                     <img
                                         src={SmallImg7}
                                         alt="SmallImg7"
-                                        classNameName="w-100 mw_74 rounded-2"
+                                        className="w-100 mw_74 rounded-2"
                                     />
                                 </div>
-                                <div classNameName="position-absolute nft_card">
-                                    <p classNameName="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                <div className="position-absolute nft_card">
+                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         STABLECOINs
                                     </p>
-                                    <p classNameName="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
+                                    <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
                                         24 NFTs
                                     </p>
-                                    <div classNameName="btn_box d-flex align-items-center gap-2 mt-3">
+                                    <div className="btn_box d-flex align-items-center gap-2 mt-3">
                                         <img src={CircleImg7} alt="CircleImg7" />
-                                        <p classNameName="mb-0 text-white">@STABLECOINs</p>
+                                        <p className="mb-0 text-white">@STABLECOINs</p>
                                     </div>
                                 </div>
-                                <div classNameName="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
+                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
                                     <img
                                         src={cardImg7}
                                         alt="cardImg7"
-                                        classNameName="w-100 card_img"
+                                        className="w-100 card_img"
                                     />
-                                    <p classNameName="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
                                         REAL YIELD
                                     </p>
-                                    <p classNameName="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p classNameName="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p classNameName="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
                                         Platforms:{" "}
                                     </p>
-                                    <div classNameName="d-flex gap_12">
-                                        <img src={Arbiturm} alt="Arbiturm" classNameName="common_img" />
-                                        <img src={GMX} alt="GMX" classNameName="common_img" />
-                                        <img src={Vela} alt="Vela" classNameName="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" classNameName="common_img" />
+                                    <div className="d-flex gap-2">
+                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
+                                        <img src={GMX} alt="GMX" className="common_img" />
+                                        <img src={Vela} alt="Vela" className="common_img" />
+                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
                                     </div>
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4} md={6} classNameName="col-12 pt-4 pt-lg-0">
-                            <div classNameName="position-relative  hover_effect">
+                        <Col lg={4} md={6} className="col-12 pt-4 pt-lg-0">
+                            <div className="position-relative  hover_effect">
                                 <img
                                     src={cardImg8}
                                     alt="cardImg8"
-                                    classNameName="w-100 rounded-2 cards_img"
+                                    className="w-100 rounded-2 cards_img"
                                 />
-                                <button classNameName="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
+                                <button className="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
                                     Ai Smart Vaults
                                 </button>
-                                <div classNameName="img_box">
+                                <div className="img_box">
                                     <img
                                         src={SmallImg8}
                                         alt="SmallImg8"
-                                        classNameName="w-100 mw_74 rounded-2"
+                                        className="w-100 mw_74 rounded-2"
                                     />
                                 </div>
-                                <div classNameName="position-absolute nft_card">
-                                    <p classNameName="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                <div className="position-absolute nft_card">
+                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         Ai Smart Vaults
                                     </p>
-                                    <p classNameName="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
+                                    <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
                                         24 NFTs
                                     </p>
-                                    <div classNameName="btn_box d-flex align-items-center gap-2 mt-3">
+                                    <div className="btn_box d-flex align-items-center gap-2 mt-3">
                                         <img src={CircleImg8} alt="CircleImg8" />
-                                        <p classNameName="mb-0 text-white">@Ai Smart Vaults</p>
+                                        <p className="mb-0 text-white">@Ai Smart Vaults</p>
                                     </div>
                                 </div>
-                                <div classNameName="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
+                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
                                     <img
                                         src={cardImg8}
                                         alt="cardImg8"
-                                        classNameName="w-100 card_img"
+                                        className="w-100 card_img"
                                     />
-                                    <p classNameName="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
                                         REAL YIELD
                                     </p>
-                                    <p classNameName="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p classNameName="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p classNameName="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
                                         Platforms:{" "}
                                     </p>
-                                    <div classNameName="d-flex gap_12">
-                                        <img src={Arbiturm} alt="Arbiturm" classNameName="common_img" />
-                                        <img src={GMX} alt="GMX" classNameName="common_img" />
-                                        <img src={Vela} alt="Vela" classNameName="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" classNameName="common_img" />
+                                    <div className="d-flex gap-2">
+                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
+                                        <img src={GMX} alt="GMX" className="common_img" />
+                                        <img src={Vela} alt="Vela" className="common_img" />
+                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
                                     </div>
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4} md={6} classNameName="col-12 pt-4 pt-lg-0">
-                            <div classNameName="position-relative hover_effect">
+                        <Col lg={4} md={6} className="col-12 pt-4 pt-lg-0">
+                            <div className="position-relative hover_effect">
                                 <img
                                     src={cardImg9}
                                     alt="cardImg9"
-                                    classNameName="w-100 rounded-2 cards_img"
+                                    className="w-100 rounded-2 cards_img"
                                 />
-                                <button classNameName="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
+                                <button className="NFT_button text-white fs_4sm lh_160 ff-raleway fw-normal">
                                     Ai Smart Vaults
                                 </button>
-                                <div classNameName="img_box">
+                                <div className="img_box">
                                     <img
                                         src={SmallImg9}
                                         alt="SmallImg9"
-                                        classNameName="w-100 mw_74 rounded-2"
+                                        className="w-100 mw_74 rounded-2"
                                     />
                                 </div>
-                                <div classNameName="position-absolute nft_card">
-                                    <p classNameName="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                <div className="position-absolute nft_card">
+                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         Ai Smart Vaults
                                     </p>
-                                    <p classNameName="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
+                                    <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
                                         24 NFTs
                                     </p>
-                                    <div classNameName="btn_box d-flex align-items-center gap-2 mt-3">
+                                    <div className="btn_box d-flex align-items-center gap-2 mt-3">
                                         <img src={CircleImg9} alt="CircleImg9" />
-                                        <p classNameName="mb-0 text-white">@Ai Smart Vaults</p>
+                                        <p className="mb-0 text-white">@Ai Smart Vaults</p>
                                     </div>
                                 </div>
-                                <div classNameName="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
+                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
                                     <img
                                         src={cardImg9}
                                         alt="cardImg9"
-                                        classNameName="w-100 card_img"
+                                        className="w-100 card_img"
                                     />
-                                    <p classNameName="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
                                         REAL YIELD
                                     </p>
-                                    <p classNameName="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p classNameName="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p classNameName="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
                                         Platforms:{" "}
                                     </p>
-                                    <div classNameName="d-flex gap_12">
-                                        <img src={Arbiturm} alt="Arbiturm" classNameName="common_img" />
-                                        <img src={GMX} alt="GMX" classNameName="common_img" />
-                                        <img src={Vela} alt="Vela" classNameName="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" classNameName="common_img" />
+                                    <div className="d-flex gap-2">
+                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
+                                        <img src={GMX} alt="GMX" className="common_img" />
+                                        <img src={Vela} alt="Vela" className="common_img" />
+                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
                                     </div>
                                 </div>
                             </div>

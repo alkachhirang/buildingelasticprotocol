@@ -11,45 +11,45 @@ function Ecosystum() {
     return (
         <div>
 
-            <div classNameName="py_partner">
-                <Container classNameName="custum_container">
-                    <h2 classNameName="ff_NeueMachinaBold fs_46 text_blue text-center pb_63 pb-5">
+            <div className="py_partner">
+                <Container className="custum_container">
+                    <h2 className="ff_NeueMachinaBold fs_46 text_blue text-center pb_63 pb-5">
                         Ecosystem Partners
                     </h2>
-                    <Row classNameName='align-items-center justify-content-center'>
-                        <Col lg={4} md={6} classNameName="col-11">
-                            <div classNameName="partner_box glass_hover d-flex align-items-center justify-content-center">
+                    <Row className='align-items-center justify-content-center'>
+                        <Col lg={4} md={6} className="col-11">
+                            <div className="partner_box glass_hover d-flex align-items-center justify-content-center">
                                 <img src={Olympus} alt="Olympus" />
                             </div>
                         </Col>
-                        <Col lg={4} md={6} classNameName="col-11 pt-4 pt-md-0">
-                            <div classNameName="partner_box glass_hover d-flex align-items-center justify-content-center">
+                        <Col lg={4} md={6} className="col-11 pt-4 pt-md-0">
+                            <div className="partner_box glass_hover d-flex align-items-center justify-content-center">
                                 <img src={BondProtocol} alt="BondProtocol" />
                             </div>
                         </Col>
-                        <Col lg={4} md={6} classNameName="col-11 pt-4 pt-lg-0">
-                            <div classNameName="partner_box glass_hover d-flex align-items-center justify-content-center">
+                        <Col lg={4} md={6} className="col-11 pt-4 pt-lg-0">
+                            <div className="partner_box glass_hover d-flex align-items-center justify-content-center">
                                 <img src={Foundry} alt="Foundry" />
                             </div>
                         </Col>
-                        <Col lg={4} md={6} classNameName="col-11 pt-4">
-                            <div classNameName="partner_box glass_hover d-flex align-items-center justify-content-center">
+                        <Col lg={4} md={6} className="col-11 pt-4">
+                            <div className="partner_box glass_hover d-flex align-items-center justify-content-center">
                                 <img src={Balancer} alt="Balancer" />
                             </div>
                         </Col>
-                        <Col lg={4} md={6} classNameName="col-11 pt-4">
-                            <div classNameName="partner_box glass_hover d-flex align-items-center justify-content-center">
+                        <Col lg={4} md={6} className="col-11 pt-4">
+                            <div className="partner_box glass_hover d-flex align-items-center justify-content-center">
                                 <img src={Gearbox} alt="Gearbox" />
                             </div>
                         </Col>
-                        <Col lg={4} md={6} classNameName="col-11 pt-4">
-                            <div classNameName="partner_box glass_hover d-flex align-items-center justify-content-center">
+                        <Col lg={4} md={6} className="col-11 pt-4">
+                            <div className="partner_box glass_hover d-flex align-items-center justify-content-center">
                                 <img src={Uniswap} alt="Uniswap" />
                             </div>
                         </Col>
                     </Row>
-                    <div classNameName="d-flex align-items-center justify-content-center pt_71">
-                        <button classNameName="Announced_btn text_blue fs_16 fw-semibold ff_raleway">
+                    <div className="d-flex align-items-center justify-content-center pt_71">
+                        <button className="Announced_btn text_blue fs_16 fw-semibold ff_raleway">
                             More To Be Announced
                         </button>
                     </div>
