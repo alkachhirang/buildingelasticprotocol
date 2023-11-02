@@ -1,38 +1,1174 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital@1&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  list-style: none !important;
+  text-decoration: none !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ff_jakarta {
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.ff_raleway {
+  font-family: 'Raleway', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ff_inter {
+  font-family: 'inter', sans-serif;
+}
+
+@font-face {
+  font-family: 'NeueMachinaLight';
+  src: url("./assets/font-family/Neue-Machina-Font-Family/neuemachinafont/NeueMachina-Light.otf");
+}
+
+.ff_NeueMachinaLight {
+  font-family: 'NeueMachinaLight';
+
+}
+
+@font-face {
+  font-family: 'NeueMachinaRegular';
+  src: url("./assets/font-family/Neue-Machina-Font-Family/neuemachinafont/NeueMachina-Regular.otf");
+}
+
+.ff_NeueMachinaRegular {
+  font-family: 'NeueMachinaRegular';
+}
+
+@font-face {
+  font-family: 'NeueMachinaBold';
+  src: url("./assets/font-family/Neue-Machina-Font-Family/neuemachinafont/NeueMachina-Ultrabold.otf");
+}
+
+.ff_NeueMachinaBold {
+  font-family: 'NeueMachinaBold';
+}
+
+.fs_14 {
+  font-size: var(--fs-4sm);
+}
+
+.fs_16 {
+  font-size: var(--fs-6sm);
+}
+
+.fs_18 {
+  font-size: var(--fs-8sm);
+}
+
+.fs_20 {
+  font-size: var(--fs-2sm);
+}
+
+.fs_22 {
+  font-size: var(--fs-2md);
+}
+
+.fs_24 {
+  font-size: var(--fs-4md);
+}
+
+.fs_36 {
+  font-size: var(--fs-6lg);
+}
+
+.fs_38 {
+  font-size: var(--fs-8lg);
+}
+
+.fs_46 {
+  font-size: var(--fs-6xl);
+}
+
+.fs_52 {
+  font-size: var(--fs-2xxl);
+}
+
+.fs_85 {
+  font-size: var(--fs-8xxxl);
+}
+
+/*-----------------------------footer---------------------------*/
+.text_blue {
+  color: #1643c3;
+}
+
+.text_grey {
+  color: #4d4d4d !important;
+}
+
+.footer_link {
+  transition: 0.3s linear !important;
+}
+
+.footer_link:hover {
+  color: #000000 !important;
+}
+
+.footer_icon {
+  transition: 0.3s linear;
+}
+
+.footer_icon:hover {
+  transform: translateY(-7px) !important;
+}
+
+.bg_lightgrey {
+  background-color: #f5f5f5;
+}
+
+.py_footer {
+  padding-top: 71px;
+  padding-bottom: 71px;
+}
+
+.flex_flow_wrap {
+  flex-flow: wrap;
+}
+
+/*----------------------------contact-us-----------------------*/
+.contact_bg_img {
+  background-image: url(./assets/images/png/form-bg-img.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.opacity_8 {
+  opacity: 0.8 !important;
+}
+
+.py_contact {
+  padding-top: 88px;
+  padding-bottom: 67px;
+}
+
+.outline_none {
+  outline: unset !important;
+}
+
+.border_bottom {
+  border: none;
+  border-bottom: 1px solid #abcdf8 !important;
+}
+
+.resize_none {
+  resize: none !important;
+}
+
+.lh-150 {
+  line-height: 150%;
+}
+
+input::placeholder {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+textarea::placeholder {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pt_18 {
+  padding-top: 18px !important;
+}
+
+.pb_78 {
+  padding-bottom: 78px;
+}
+
+.pt_48 {
+  padding-top: 48px;
+}
+
+.submit_btn {
+  border-radius: 8px;
+  padding: 22px 40px;
+  background: linear-gradient(93deg, #1643C3 10.28%, #369EFE 96.25%), linear-gradient(179deg, #1643C3 0.63%, #000 175.69%) !important;
+}
+
+.glass_hover {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.glass_hover::before {
+  content: "";
+  background: rgb(255, 255, 255, 0.4);
+  width: 50%;
+  height: 100%;
+  left: -125%;
+  top: 0%;
+  transform: skew(45deg);
+  filter: blur(30px);
+  position: absolute;
+  transition: left 0.5s ease-in-out;
+}
+
+.glass_hover:hover::before {
+  left: 150%;
+}
+
+/*-------------------------starting-supply--------------------------- */
+.supply_bg_img {
+  background-image: url(./assets/images/png/supply_bg_img.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.w_593 {
+  width: 593px;
+}
+
+.border_bottom {
+  width: 100%;
+  border-bottom: 1px solid #345CCB;
+}
+
+.list_style {
+  list-style-type: value !important;
+}
+
+.py_startimgsupply {
+  padding-top: 71px;
+  padding-bottom: 91px;
+}
+
+.font_italic {
+  font-style: italic;
+}
+
+/*------------------------------- Ecosystem---------------------- */
+.partner_box {
+  padding: 56px 44px !important;
+  cursor: pointer;
+  height: 100%;
+  max-height: 145px;
+  border-radius: 12.132px;
+  border: 1.213px solid #C3D3FF;
+  background: linear-gradient(93deg, #1643C3 10.24%, #369EFE 208.68%);
+  box-shadow: 0px 7px 15px 0px rgba(22, 67, 195, 0.21);
+}
+
+.Announced_btn {
+  padding: 25px 31px;
+  border-radius: 8px;
+  border: 1px solid #1643C3;
+  background-color: transparent;
+  transition: 0.3s linear;
+}
+
+.Announced_btn:hover {
+  box-shadow: 0 8px 16px 0 #1644c354, 0 6px 20px 0 #1644c346;
+}
+
+.py_partner {
+  padding-top: 90px !important;
+  padding-bottom: 80px !important;
+}
+
+.pt_71 {
+  padding-top: 71px;
+}
+
+.lh_112 {
+  line-height: 112px;
+}
+
+/*---------------------------our-team-----------------------------*/
+.team_bg_img {
+  background-image: linear-gradient(360deg, #fff 24%, transparent 24%), url('./assets/images/png/team-bg-img.png') !important;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.team_card {
+  padding: 12px 12px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 44px 5px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.py_team {
+  padding-top: 70px;
+}
+
+/*--------------------------amplify-section--------------------------*/
+
+.amplify_bg_img {
+  background-image: linear-gradient(360deg, black 43%, transparent 24%), url('./assets/images/png/amplify_bg_img.png') !important;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  object-fit: cover !important;
+}
+
+.h_350 {
+  height: 350px;
+}
+
+.pt_187 {
+  padding-top: 178px;
+}
+
+/*---------------------------core-section--------------------------*/
+.core_bg_img {
+  background-image: url(./assets/images/png/core-bg-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mt_4 {
+  margin-top: -4px;
+}
+
+.py_core {
+  padding-top: 99px;
+  padding-bottom: 99px;
+}
+
+.core_card {
+  border-radius: 12px;
+  border: 1px solid #1643C3;
+  background: linear-gradient(124deg, rgba(19, 245, 255, 0.25) 7.19%, rgba(0, 66, 255, 0.00) 93.2%);
+  backdrop-filter: blur(12.5px);
+  padding: 17px 19px 31px 19px;
+  max-width: 370px;
+}
+
+.core_line::after {
+  content: "";
+  position: absolute;
+  border-radius: 18px;
+  opacity: 0.2;
+  background: #FFF;
+  width: 100%;
+  max-width: 292px;
+  height: 3px;
+}
+
+.innovation {
+  border-radius: 8px;
+  background: rgba(108, 103, 241, 0.20);
+  padding: 12px 11px;
+}
+
+.lh_160 {
+  line-height: 160%;
+}
+
+.clr_blue {
+  color: #4878FF;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+.slick-dots li button:before {
+  content: '' !important;
+  width: 17px !important;
+  height: 7px !important;
+  border-radius: 23px !important;
+  opacity: 0.3 !important;
+  background: #D9D9D9 !important;
+  transition: all .3s linear !important;
+}
+
+.slick-dots li.slick-active button:before {
+  width: 51px !important;
+  border-radius: 23px !important;
+  opacity: 0.7 !important;
+  background: #D9D9D9 !important;
+}
+
+.slick-dots li.slick-active {
+  width: 51px !important;
+}
+
+/*----------------------------header-section---------------------*/
+.header_bg_img {
+  background-image: url(./assets/images/png/bg-header2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.mw_68 {
+  max-width: 68px;
+}
+
+.enter_btn {
+  border-radius: 8px;
+  border: 1px solid var(--Blue, #1643C3);
+  padding: 16px 31px;
+  background-color: transparent;
+  transition: .3s linear;
+}
+
+.enter_btn:hover {
+  box-shadow: 0 8px 16px 0 #1644c354, 0 6px 20px 0 #1644c346;
+}
+
+.btn_blue {
+  color: #1643C3;
+}
+
+.nav_bar {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  transition: .3s linear !important;
+  gap: 25px;
+  margin-bottom: 0 !important;
+}
+
+.nav_line::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 0;
+  height: 2px;
+  background-color: #ffffff;
+  bottom: 0;
+  border-radius: 10px;
+  transition: all 300ms linear;
+}
+
+.nav_line:hover::after {
+  width: 100%;
+}
+
+.robo-img {
+  padding-top: 80px;
+  margin-bottom: 65px;
+}
+
+.head-padding {
+  padding-top: 100px;
+}
+
+.gap-btn {
+  gap: 20px;
+}
+
+.cursor_pointer {
+  cursor: pointer !important;
+}
+
+.dropdown-box {
+  position: absolute;
+  background: white;
+  min-width: 109px;
+  z-index: 1;
+  display: none;
+  border-radius: 18px;
+  border: 1px solid #E8E8E8;
+  flex-direction: column;
+  left: -61px;
+  top: 41px;
+}
+
+.dropdown-box a {
+  width: 108px;
+  height: 45px;
+  border-radius: 18px;
+  border-bottom: 1px solid #E8E8E8;
+  background: rgba(196, 196, 196, 0.00);
+}
+
+.dropdown-box a:hover {
+  background: var(--gray5);
+  color: var(--white);
+}
+
+.btn-am {
+  background: inherit;
+  border: none;
+}
+
+/*-----------------------------tokenomics-----------------------*/
+.tokenomics_bg_img {
+  background-image: url(./assets/images/png/bg-twocolour2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.py_tokenonics {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.pt_90{
+  padding-top: 90px;
+}
+.pb_100{
+  padding-bottom: 100px;
+}
+ .mb_57 {
+   margin-bottom: -57px !important;
+ }
+
+.view_btn {
+  background: linear-gradient(93deg, #1643C3 10.24%, #369EFE 208.68%);
+  padding: 17px 16px;
+  border: 2 px solid transparent;
+}
+
+.color_blue {
+  color: #1643C3;
+}
+
+.fw_600 {
+  font-weight: 600;
+}
+
+/*-------------------------- future-use--------------------------*/
+.bg_Strategies {
+  background-image: url('./assets/images/png/Strategies.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.py_startegies {
+  padding-top: 126px;
+  padding-bottom: 126px;
+}
+.text-blue {
+  color: #1643C3;
+}
+
+.text_darkblue {
+  color: #4878FF;
+}
+
+.NFT_button {
+  padding: 13px 21.5px 12px 21.5px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.30);
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(14.5px);
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+
+.img_box {
+  border-radius: 5.75px;
+  border: 0.958px solid rgba(255, 255, 255, 0.50);
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(9.5px);
+  padding: 9px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  cursor: pointer;
+  transition: 0.3s linear !important;
+}
+
+.hover_effect:hover .hover_card {
+  opacity: 1 !important;
+}
+.pb_82{
+  padding-bottom: 82px;
+}
+
+.hover_card {
+  transition: all 300ms linear;
+}
+
+.cards_img {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.09) 46.86%, #000 100%), lightgray 50% / cover no-repeat, #FFF;
+  box-shadow: 0px 5px 23px 0px rgba(22, 67, 195, 0.32);
+  cursor: pointer !important;
+}
+
+.gap_12 {
+  gap: 12px;
+}
+
+.pt_20 {
+  padding-top: 20px;
+}
+
+.px_20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nft_card {
+  left: 5%;
+  bottom: 5%;
+}
+
+.btn_box {
+  border-radius: 47.058px;
+  border: 1.272px solid rgba(255, 255, 255, 0.60);
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(15.89805793762207px);
+  padding: 3px 8px 3px 5px;
+  cursor: pointer;
+}
+
+.start_3 {
+  left: 3%;
+}
+
+.hover_card {
+  padding: 25px 19px 16px 23px;
+  border-radius: 8px;
+  border: 2px solid rgba(22, 67, 195, 0.30) !important;
+  background: linear-gradient(170deg, #1643C3 0.65%, #000 139.04%), linear-gradient(176deg, #3965E4 10.14%, #0C1F53 120.71%);
+  box-shadow: 0px 5px 23px 0px rgba(22, 67, 195, 0.24);
+  backdrop-filter: blur(49.5px);
+}
+
+.card_img {
+  height: 30%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/*----------------------------roadmap----------------------------*/
+.roadmap_bg_img {
+  background-image: url(./assets/images/png/roadmap-bg-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.py_roadmap {
+  padding-top: 150px;
+  padding-bottom: 142px;
+}
+
+.roadmap_padding {
+  padding-bottom: 100px;
+}
+
+.bullet_circle {
+  padding: 0;
+  list-style: none;
+}
+
+.bullet_circle li {
+  padding-left: 12px;
+  text-indent: -.7em;
+}
+
+.bullet_circle li::before {
+  content: "• ";
   color: white;
+  padding-right: 6px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.lh_150 {
+  line-height: 150%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+* {
+  box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background-color: #4273ff;
+  top: 7px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container1 {
+  padding: 10px 50px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.roadmap_left {
+  position: absolute;
+  right: -11px;
+  top: 0;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Fix the circle for containers on the right side */
+.roadmap_right {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: -13px;
+}
+
+.roadmap_right1 {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: -13px;
+  display: none;
+}
+
+/* The actual content */
+.content {
+  border-radius: 8px;
+  padding: 36px 15px;
+  border: 1px solid var(--Blue, #1643C3);
+  background: rgba(22, 67, 195, 0.10);
+  position: relative;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 800px) {
+
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
   }
-  to {
-    transform: rotate(360deg);
+
+  /* Full-width containers */
+  .container1 {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
   }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .roadmap_left {
+    display: none !important;
+  }
+
+  .roadmap_right1 {
+    display: block;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .roadmap_right1,
+  .roadmap_right {
+    left: 15px;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
+@media (max-width:992px) {
+  .menu-icon {
+    width: 35px;
+    height: 30px;
+    background: transparent;
+    border-radius: 15px !important;
+    position: relative;
+    z-index: 5;
+    transition: all .3s linear;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .cross {
+    right: 0;
+  }
+
+  .cross1 {
+    right: -100%;
+  }
+
+  .menu-icon span {
+    width: 100%;
+    height: 5px;
+    background: white;
+    transition: all .3s linear;
+  }
+
+  .nav_bar {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    position: fixed;
+    display: flex;
+    z-index: 4;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1643C3;
+    transition: .3s linear;
+    padding-left: 0 !important;
+  }
+
+  .left_true {
+    left: 0;
+
+  }
+
+  .left_false {
+    left: -100%;
+  }
+
+  .d_block {
+    display: block;
+  }
+
+  .d_none {
+    display: none;
+  }
+
+  .btn-enter1 {
+    display: block;
+    padding: 16px 31px;
+    border-radius: 8px;
+    border: 1px solid var(--Blue, #fff);
+    background: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-size: var(--fs-2sm);
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .cross1 .crl-1 {
+    transform: rotate(50deg) translate(17px, 17px);
+  }
+
+  .cross1 .crl-2 {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+
+  .cross1 .crl-3 {
+    transform: rotate(-50deg) translateY(-50%);
+  }
+}
+
+@media (max-width:767.99px) {
+  .team_bg_img {
+    background-image: linear-gradient(360deg, #fff 70%, transparent 70%), url('./assets/images/png/team-bg-img.png') !important;
+    background-size: cover;
+  }
+
+  .cross1 {
+    right: 0;
+  }
+}
+
+@media (min-width:390px) and (max-width:500px) {
+  .amplify_bg_img1 {
+    background-image: linear-gradient(360deg, black 34%, transparent 24%), url('./assets/images/png/amplify_bg_img.png') !important;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    object-fit: cover !important;
+    background-color: black !important;
+  }
+
+  .pt_209 {
+    padding-top: 209px;
+  }
+}
+
+@media (min-width:500px) and (max-width:576px) {
+  .amplify_bg_img1 {
+    background-image: linear-gradient(360deg, black 26%, transparent 24%), url('./assets/images/png/amplify_bg_img.png') !important;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    object-fit: cover !important;
+    background-color: black !important;
+  }
+
+  .pt_227 {
+    padding-top: 227px;
+  }
+}
+
+@media (min-width:768px) {
+
+  .w_md_900 {
+    width: 900px !important;
+  }
+}
+
+@media (min-width:576px) {
+
+  .h_sm_500 {
+    height: 500px;
+  }
+
+  .amplify_bg_img {
+    background-image: url("./assets/images/png/amplify_bg_img.png") !important;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover !important;
+  }
+}
+
+@media (min-width:1200px) {
+  .custom_container {
+    max-width: 1140px !important;
+  }
+
+  .mw_850 {
+    max-width: 850px !important;
+  }
+
+  .min_vh_100 {
+    min-height: 100vh !important;
+  }
+
+  .gap-btn {
+    gap: 120px !important;
+  }
+
+  :root {
+    /*---------------------------font-size------------------------ */
+    --fs-4sm: 14px;
+    --fs-6sm: 16px;
+    --fs-8sm: 18px;
+    --fs-2sm: 20px;
+    --fs-2md: 22px;
+    --fs-4md: 24px;
+    --fs-6lg: 36px;
+    --fs-8lg: 38px;
+    --fs-6xl: 46px;
+    --fs-2xxl: 52px;
+    --fs-8xxxl: 85px;
+  }
+  .cloud_img{
+    bottom: -9% !important;
+    right: 0;
+
+  }
+}
+
+@media (min-width:992px) {
+  .mw_521 {
+    max-width: 521px !important;
+  }
+    .py_tokenonics {
+      padding-bottom: 140px;
+      padding-top: 145px;
+    }
+        .mb_45 {
+          margin-bottom: -45px;
+        }
+        .mw_882{
+          max-width: 882px;
+        }
+
+  .mw_448 {
+    max-width: 448px;
+  }
+
+  .mw-463 {
+    max-width: 463px;
+  }
+
+  .mw-521 {
+    max-width: 521px;
+  }
+
+  .mw_442 {
+    max-width: 442px;
+  }
+
+  .h_300 {
+    height: 300px;
+  }
+
+  .robo-img {
+    transform: translate(0%, -7%);
+    margin-bottom: 0;
+  }
+
+  .header_bg_img {
+    background-image: url(./assets/images/png/header_bg_img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .tokenomics_bg_img {
+    background-image: url(./assets/images/png/bg-twocolour.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .gap-btn {
+    gap: 90px;
+  }
+
+  .py_team {
+    padding-top: 132px;
+  }
+
+  .pb_63 {
+    padding-bottom: 63px;
+  }
+
+  .py_partner {
+    padding-top: 160px !important;
+    padding-bottom: 127px !important;
+  }
+
+  .mw_554 {
+    max-width: 554px;
+  }
+
+  .mw_819 {
+    max-width: 819px;
+  }
+}
+
+:root {
+  /*---------------------------font-size------------------------ */
+  --fs-4sm: 14px;
+  --fs-6sm: 16px;
+  --fs-8sm: 18px;
+  --fs-2sm: 20px;
+  --fs-2md: 22px;
+  --fs-4md: 24px;
+  --fs-6lg: 36px;
+  --fs-8lg: 38px;
+  --fs-6xl: 46px;
+  --fs-2xxl: 42px;
+  --fs-8xxxl: 85px;
+}
+
+@media (min-width:768px) and (max-width:992px) {
+  :root {
+    /*---------------------------font-size------------------------ */
+    --fs-4sm: 14px;
+    --fs-6sm: 16px;
+    --fs-8sm: 18px;
+    --fs-2sm: 20px;
+    --fs-2md: 22px;
+    --fs-4md: 24px;
+    --fs-6lg: 36px;
+    --fs-8lg: 38px;
+    --fs-6xl: 46px;
+    --fs-2xxl: 52px;
+    --fs-8xxxl: 68px !important;
+  }
+     .cloud_img {
+       bottom: -11% !important;
+       right: 0;
+     }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+  :root {
+    /*---------------------------font-size------------------------ */
+    --fs-4sm: 14px;
+    --fs-6sm: 16px;
+    --fs-8sm: 18px;
+    --fs-2sm: 20px;
+    --fs-2md: 22px;
+    --fs-4md: 24px;
+    --fs-6lg: 36px;
+    --fs-8lg: 38px;
+    --fs-6xl: 46px;
+    --fs-2xxl: 38px;
+    --fs-8xxxl: 49px;
+
+  }
+}
+
+@media (max-width:576px) {
+  :root {
+    /*---------------------------font-size------------------------ */
+    --fs-4sm: 12px;
+    --fs-6sm: 16px;
+    --fs-8sm: 18px;
+    --fs-2sm: 18px;
+    --fs-2md: 22px;
+    --fs-4md: 24px;
+    --fs-6lg: 25px;
+    --fs-8lg: 38px;
+    --fs-6xl: 32px;
+    --fs-2xxl: 24px;
+    --fs-8xxxl: 36px;
+
+  }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+  :root {
+    /*---------------------------font-size------------------------ */
+    --fs-4sm: 14px;
+    --fs-6sm: 16px;
+    --fs-8sm: 18px;
+    --fs-2sm: 20px;
+    --fs-2md: 22px;
+    --fs-4md: 24px;
+    --fs-6lg: 36px;
+    --fs-8lg: 38px;
+    --fs-6xl: 46px;
+    --fs-2xxl: 42px;
+    --fs-8xxxl: 46px;
+  }
+     .cloud_img {
+       bottom: -12% !important;
+       right: 0;
+  
+     }
 }

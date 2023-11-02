@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header'
+import Amplify from './components/Amplify';
+import Contact from './components/Contact';
+import Core from './components/Core';
+import Ecosystum from './components/Ecosystum';
+import Footer from "./components/Footer";
+import Roadmap from './components/Roadmap';
+import StartingSupply from './components/StartingSupply';
+import Future from './components/Future';
+import Team from './components/Team';
+import Tokenomics from './components/Tokenomics';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Amplify />
+      <Core />
+      <Tokenomics/>
+      <Team />
+      <Ecosystum />
+      <StartingSupply />
+      <Future/>
+      <Roadmap />
+      <Contact />
+      <Footer />
+
     </div>
   );
 }
