@@ -81,32 +81,59 @@ const Strategies = () => {
                                         <p className="mb-0 text-white">@NFTs</p>
                                     </div>
                                 </div>
-                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
-                                    <img
-                                        src={SmallImg2}
-                                        alt="SmallImg2"
-                                        className="w-100 card_img"
-                                    />
-                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                <div className="overlay-card position-absolute d-flex flex-column justify-content-between z-1 top-0 left-0 w-100 h-100 opacity-0">
+                                    <div className="over-img-box overflow-hidden">
+                                        <img
+                                            src={cardImg1}
+                                            alt="cardImg1"
+                                            className="w-100 overlay-small-img"
+                                        />
+                                    </div>
+                                    <h2 className="fs_24 ff_NeueMachinaLight fw-bold line-120 text-white text-capitalize pt-1 mt-3">
                                         REAL YIELD
-                                    </p>
-                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    </h2>
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8 mb-4">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+
+                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
-                                    </p>
-                                    <div className="d-flex gap-2">
-                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
-                                        <img src={GMX} alt="GMX" className="common_img" />
-                                        <img src={Vela} alt="Vela" className="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
+                                    </h3>
+                                    <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
+                                        <div className="col-3 ">
+                                            <img
+                                                src={Arbiturm}
+                                                alt="Arbiturm"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={GMX}
+                                                alt="GMX"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={Vela}
+                                                alt="Vela"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={JonesDao}
+                                                alt="JonesDao}"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -140,32 +167,59 @@ const Strategies = () => {
                                         <p className="mb-0 text-white">@NFTs</p>
                                     </div>
                                 </div>
-                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
-                                    <img
-                                        src={SmallImg1}
-                                        alt="SmallImg1"
-                                        className="w-100 card_img"
-                                    />
-                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                <div className="overlay-card position-absolute d-flex flex-column justify-content-between z-1 top-0 left-0 w-100 h-100 opacity-0">
+                                    <div className="over-img-box overflow-hidden">
+                                        <img
+                                            src={cardImg1}
+                                            alt="cardImg1"
+                                            className="w-100 overlay-small-img"
+                                        />
+                                    </div>
+                                    <h2 className="fs_24 ff_NeueMachinaLight fw-bold line-120 text-white text-capitalize pt-1 mt-3">
                                         REAL YIELD
-                                    </p>
-                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    </h2>
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8 mb-4">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+
+                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
-                                    </p>
-                                    <div className="d-flex gap-2">
-                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
-                                        <img src={GMX} alt="GMX" className="common_img" />
-                                        <img src={Vela} alt="Vela" className="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
+                                    </h3>
+                                    <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
+                                        <div className="col-3 ">
+                                            <img
+                                                src={Arbiturm}
+                                                alt="Arbiturm"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={GMX}
+                                                alt="GMX"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={Vela}
+                                                alt="Vela"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={JonesDao}
+                                                alt="JonesDao}"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -199,32 +253,59 @@ const Strategies = () => {
                                         <p className="mb-0 text-white">@OPTIONS</p>
                                     </div>
                                 </div>
-                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
-                                    <img
-                                        src={cardImg3}
-                                        alt="cardImg3"
-                                        className="w-100 card_img"
-                                    />
-                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                <div className="overlay-card position-absolute d-flex flex-column justify-content-between z-1 top-0 left-0 w-100 h-100 opacity-0">
+                                    <div className="over-img-box overflow-hidden">
+                                        <img
+                                            src={cardImg3}
+                                            alt="cardImg3"
+                                            className="w-100 overlay-small-img"
+                                        />
+                                    </div>
+                                    <h2 className="fs_24 ff_NeueMachinaLight fw-bold line-120 text-white text-capitalize pt-1 mt-3">
                                         REAL YIELD
-                                    </p>
-                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    </h2>
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8 mb-4">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+
+                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
-                                    </p>
-                                    <div className="d-flex gap-2">
-                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
-                                        <img src={GMX} alt="GMX" className="common_img" />
-                                        <img src={Vela} alt="Vela" className="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
+                                    </h3>
+                                    <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
+                                        <div className="col-3 ">
+                                            <img
+                                                src={Arbiturm}
+                                                alt="Arbiturm"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={GMX}
+                                                alt="GMX"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={Vela}
+                                                alt="Vela"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={JonesDao}
+                                                alt="JonesDao}"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -258,32 +339,59 @@ const Strategies = () => {
                                         <p className="mb-0 text-white">@BONDs</p>
                                     </div>
                                 </div>
-                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
-                                    <img
-                                        src={cardImg4}
-                                        alt="cardImg4"
-                                        className="w-100 card_img"
-                                    />
-                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                <div className="overlay-card position-absolute d-flex flex-column justify-content-between z-1 top-0 left-0 w-100 h-100 opacity-0">
+                                    <div className="over-img-box overflow-hidden">
+                                        <img
+                                            src={cardImg4}
+                                            alt="cardImg4"
+                                            className="w-100 overlay-small-img"
+                                        />
+                                    </div>
+                                    <h2 className="fs_24 ff_NeueMachinaLight fw-bold line-120 text-white text-capitalize pt-1 mt-3">
                                         REAL YIELD
-                                    </p>
-                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    </h2>
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8 mb-4">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+
+                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
-                                    </p>
-                                    <div className="d-flex gap-2">
-                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
-                                        <img src={GMX} alt="GMX" className="common_img" />
-                                        <img src={Vela} alt="Vela" className="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
+                                    </h3>
+                                    <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
+                                        <div className="col-3 ">
+                                            <img
+                                                src={Arbiturm}
+                                                alt="Arbiturm"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={GMX}
+                                                alt="GMX"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={Vela}
+                                                alt="Vela"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={JonesDao}
+                                                alt="JonesDao}"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -317,32 +425,59 @@ const Strategies = () => {
                                         <p className="mb-0 text-white">@Social Trading</p>
                                     </div>
                                 </div>
-                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
-                                    <img
-                                        src={cardImg5}
-                                        alt="cardImg5"
-                                        className="w-100 card_img"
-                                    />
-                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                <div className="overlay-card position-absolute d-flex flex-column justify-content-between z-1 top-0 left-0 w-100 h-100 opacity-0">
+                                    <div className="over-img-box overflow-hidden">
+                                        <img
+                                            src={cardImg5}
+                                            alt="cardImg5"
+                                            className="w-100 overlay-small-img"
+                                        />
+                                    </div>
+                                    <h2 className="fs_24 ff_NeueMachinaLight fw-bold line-120 text-white text-capitalize pt-1 mt-3">
                                         REAL YIELD
-                                    </p>
-                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    </h2>
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8 mb-4">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+
+                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
-                                    </p>
-                                    <div className="d-flex gap-2">
-                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
-                                        <img src={GMX} alt="GMX" className="common_img" />
-                                        <img src={Vela} alt="Vela" className="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
+                                    </h3>
+                                    <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
+                                        <div className="col-3 ">
+                                            <img
+                                                src={Arbiturm}
+                                                alt="Arbiturm"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={GMX}
+                                                alt="GMX"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={Vela}
+                                                alt="Vela"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={JonesDao}
+                                                alt="JonesDao}"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -376,32 +511,59 @@ const Strategies = () => {
                                         <p className="mb-0 text-white">@PERPS and Delta Neutral</p>
                                     </div>
                                 </div>
-                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
-                                    <img
-                                        src={cardImg6}
-                                        alt="cardImg6"
-                                        className="w-100 card_img"
-                                    />
-                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                <div className="overlay-card position-absolute d-flex flex-column justify-content-between z-1 top-0 left-0 w-100 h-100 opacity-0">
+                                    <div className="over-img-box overflow-hidden">
+                                        <img
+                                            src={cardImg6}
+                                            alt="cardImg6"
+                                            className="w-100 overlay-small-img"
+                                        />
+                                    </div>
+                                    <h2 className="fs_24 ff_NeueMachinaLight fw-bold line-120 text-white text-capitalize pt-1 mt-3">
                                         REAL YIELD
-                                    </p>
-                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    </h2>
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8 mb-4">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+
+                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
-                                    </p>
-                                    <div className="d-flex gap-2">
-                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
-                                        <img src={GMX} alt="GMX" className="common_img" />
-                                        <img src={Vela} alt="Vela" className="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
+                                    </h3>
+                                    <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
+                                        <div className="col-3 ">
+                                            <img
+                                                src={Arbiturm}
+                                                alt="Arbiturm"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={GMX}
+                                                alt="GMX"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={Vela}
+                                                alt="Vela"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={JonesDao}
+                                                alt="JonesDao}"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -435,32 +597,59 @@ const Strategies = () => {
                                         <p className="mb-0 text-white">@STABLECOINs</p>
                                     </div>
                                 </div>
-                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
-                                    <img
-                                        src={cardImg7}
-                                        alt="cardImg7"
-                                        className="w-100 card_img"
-                                    />
-                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                <div className="overlay-card position-absolute d-flex flex-column justify-content-between z-1 top-0 left-0 w-100 h-100 opacity-0">
+                                    <div className="over-img-box overflow-hidden">
+                                        <img
+                                            src={cardImg7}
+                                            alt="cardImg7"
+                                            className="w-100 overlay-small-img"
+                                        />
+                                    </div>
+                                    <h2 className="fs_24 ff_NeueMachinaLight fw-bold line-120 text-white text-capitalize pt-1 mt-3">
                                         REAL YIELD
-                                    </p>
-                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    </h2>
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8 mb-4">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+
+                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
-                                    </p>
-                                    <div className="d-flex gap-2">
-                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
-                                        <img src={GMX} alt="GMX" className="common_img" />
-                                        <img src={Vela} alt="Vela" className="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
+                                    </h3>
+                                    <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
+                                        <div className="col-3 ">
+                                            <img
+                                                src={Arbiturm}
+                                                alt="Arbiturm"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={GMX}
+                                                alt="GMX"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={Vela}
+                                                alt="Vela"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={JonesDao}
+                                                alt="JonesDao}"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -494,32 +683,59 @@ const Strategies = () => {
                                         <p className="mb-0 text-white">@Ai Smart Vaults</p>
                                     </div>
                                 </div>
-                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
-                                    <img
-                                        src={cardImg8}
-                                        alt="cardImg8"
-                                        className="w-100 card_img"
-                                    />
-                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                <div className="overlay-card position-absolute d-flex flex-column justify-content-between z-1 top-0 left-0 w-100 h-100 opacity-0">
+                                    <div className="over-img-box overflow-hidden">
+                                        <img
+                                            src={cardImg8}
+                                            alt="cardImg8"
+                                            className="w-100 overlay-small-img"
+                                        />
+                                    </div>
+                                    <h2 className="fs_24 ff_NeueMachinaLight fw-bold line-120 text-white text-capitalize pt-1 mt-3">
                                         REAL YIELD
-                                    </p>
-                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    </h2>
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8 mb-4">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+
+                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
-                                    </p>
-                                    <div className="d-flex gap-2">
-                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
-                                        <img src={GMX} alt="GMX" className="common_img" />
-                                        <img src={Vela} alt="Vela" className="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
+                                    </h3>
+                                    <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
+                                        <div className="col-3 ">
+                                            <img
+                                                src={Arbiturm}
+                                                alt="Arbiturm"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={GMX}
+                                                alt="GMX"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={Vela}
+                                                alt="Vela"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={JonesDao}
+                                                alt="JonesDao}"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -553,32 +769,59 @@ const Strategies = () => {
                                         <p className="mb-0 text-white">@Ai Smart Vaults</p>
                                     </div>
                                 </div>
-                                <div className="hover_card position-absolute top-0 start-0 opacity-0 w-100 h-100">
-                                    <img
-                                        src={cardImg9}
-                                        alt="cardImg9"
-                                        className="w-100 card_img"
-                                    />
-                                    <p className="text-white lh_120 ff_NeueMachinaUltrabold fs_4md text-uppercase pt-4 mb-0">
+                                <div className="overlay-card position-absolute d-flex flex-column justify-content-between z-1 top-0 left-0 w-100 h-100 opacity-0">
+                                    <div className="over-img-box overflow-hidden">
+                                        <img
+                                            src={cardImg9}
+                                            alt="cardImg9"
+                                            className="w-100 overlay-small-img"
+                                        />
+                                    </div>
+                                    <h2 className="fs_24 ff_NeueMachinaLight fw-bold line-120 text-white text-capitalize pt-1 mt-3">
                                         REAL YIELD
-                                    </p>
-                                    <p className="lh_160 ff-raleway fw-normal text-white opacity_08 fs_6sm pt-3 pb-3 mb-0">
+                                    </h2>
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8">
                                         These are strategies that will explore other Real Yield
                                         ecosystems outside of Olympus DAO. For example GMX - the
                                         leading leverage platform that{" "}
                                     </p>
-                                    <p className="lh_160 fw-normal fs_6sm ff-raleway text-white opacity_08 pb-4 mb-0">
+                                    <p className="text-white ff_raleway fs_16 fw-normal line-160 opacity_8 mb-4">
                                         distributes 100% of fees. We are also looking at Vela
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
-                                    <p className="lh_160 fs_md text-white ff-raleway fw-semibold mb-0">
+
+                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
-                                    </p>
-                                    <div className="d-flex gap-2">
-                                        <img src={Arbiturm} alt="Arbiturm" className="common_img" />
-                                        <img src={GMX} alt="GMX" className="common_img" />
-                                        <img src={Vela} alt="Vela" className="common_img" />
-                                        <img src={JonesDao} alt="JonesDao" className="common_img d-none d-lg-block" />
+                                    </h3>
+                                    <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
+                                        <div className="col-3 ">
+                                            <img
+                                                src={Arbiturm}
+                                                alt="Arbiturm"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={GMX}
+                                                alt="GMX"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={Vela}
+                                                alt="Vela"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
+                                        <div className="col-3">
+                                            <img
+                                                src={JonesDao}
+                                                alt="JonesDao}"
+                                                className="overlay-card-partner"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>

@@ -467,7 +467,7 @@ textarea::placeholder {
 }
 
 .head-padding {
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 .gap-btn {
@@ -509,6 +509,54 @@ textarea::placeholder {
   border: none;
 }
 
+.overlay-card {
+  border-radius: 8px;
+  /* border: 2px solid rgba(22, 67, 195, 0.30); */
+  background: linear-gradient(170deg, #1643C3 0.65%, #000 139.04%), linear-gradient(176deg, #3965E4 10.14%, #0C1F53 120.71%);
+  box-shadow: 0px 5px 23px 0px rgba(22, 67, 195, 0.24);
+  /* backdrop-filter: blur(49.5px); */
+  padding: 25.11px 23.34px 16.9px 19px;
+}
+
+.over-img-box {
+  /* height: 154.641px; */
+  height: 23%;
+  border-radius: 8px;
+}
+
+.overlay-small-img {
+  object-fit: cover;
+  height: 155%;
+}
+
+.gap-12 {
+  gap: 12.45px;
+}
+
+.overlay-card-partner {
+  width: 100%;
+  border-radius: 4.85px;
+  border-radius: 4.847px;
+  border: 1.97px solid rgba(22, 67, 195, 0.30);
+  box-shadow: 0px 3.8778px 9.6945px 0px rgba(22, 67, 195, 0.21);
+}
+
+.overlay-card {
+  transition: all 300ms linear !important;
+}
+
+.hover_effect:hover .overlay-card {
+  opacity: 1 !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-82 {
+  margin-bottom: 82px;
+}
+
 /*-----------------------------tokenomics-----------------------*/
 .tokenomics_bg_img {
   background-image: url(./assets/images/png/bg-twocolour2.png);
@@ -521,6 +569,9 @@ textarea::placeholder {
 .py_tokenonics {
   padding-bottom: 100px;
   padding-top: 100px;
+}
+.mt_15{
+  margin-top: -15px;
 }
 
 .pt_90 {
@@ -539,6 +590,10 @@ textarea::placeholder {
   background: linear-gradient(93deg, #1643C3 10.24%, #369EFE 208.68%);
   padding: 17px 16px;
   border: 2 px solid transparent;
+  transition: .3s linear !important;
+}
+.view_btn:hover {
+  box-shadow: 0 8px 16px 0 #1644c354, 0 6px 20px 0 #1644c346 !important;
 }
 
 .color_blue {
@@ -993,12 +1048,12 @@ body {
     --fs-6lg: 36px;
     --fs-8lg: 38px;
     --fs-6xl: 46px;
-    --fs-2xxl: 52px;
+    --fs-2xxl: 52px !important;
     --fs-8xxxl: 85px;
   }
 
   .cloud_img {
-    bottom: -9% !important;
+    bottom: -15% !important;
     right: 0;
 
   }
@@ -1046,6 +1101,10 @@ body {
     transform: translate(0%, -7%);
     margin-bottom: 0;
   }
+    .py_core {
+      padding-top: 130px;
+      padding-bottom: 110px;
+    }
 
   .header_bg_img {
     background-image: url(./assets/images/png/header_bg_img.png);
@@ -1115,7 +1174,7 @@ body {
     --fs-6lg: 36px;
     --fs-8lg: 38px;
     --fs-6xl: 46px;
-    --fs-2xxl: 52px;
+    --fs-2xxl: 42px;
     --fs-8xxxl: 68px !important;
   }
 
@@ -1173,7 +1232,7 @@ body {
     --fs-6lg: 36px;
     --fs-8lg: 38px;
     --fs-6xl: 46px;
-    --fs-2xxl: 42px;
+    --fs-2xxl: 42px !important;
     --fs-8xxxl: 46px;
   }
 

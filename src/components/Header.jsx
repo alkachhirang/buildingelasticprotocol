@@ -33,7 +33,7 @@ function Header() {
                                 <li className='position-relative'><a href="" className='ff_raleway fs_16 fw-medium text-white nav_line'>Team</a></li>
                                 <li className='position-relative'><a href="" className='ff_raleway fs_16 fw-medium text-white nav_line'>Partners</a></li>
                                 <li className='position-relative'><a href="" className='ff_raleway fs_16 fw-medium text-white nav_line'>Roadmap</a></li>
-                                <li className='d-flex align-items-center gap-1'><a href="" className='ff_raleway fs_16 fw-medium text-white '>More</a>
+                                <li className='position-relative d-flex align-items-center gap-1'><a href="" className='ff_raleway fs_16 fw-medium text-white nav_line'>More</a>
                                     <div className="position-relative d-inline-block">
                                         <button onClick={drop} className="btn-am ps-2 pb-1">
                                             <MoreArrow />

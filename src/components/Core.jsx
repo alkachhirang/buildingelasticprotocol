@@ -51,7 +51,7 @@ function Core() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={6} className='pt-5 pt-lg-0'>
+                            <Col lg={6} className='pt-5 pt-lg-0 pb-5'>
                                 <div className='overflow-y-auto'>
                                     <div className='h_300'>
                                         <h3 className='fw-normal fs_38 ff_NeueMachinaRegular text-white'>Elastic Vault</h3>
@@ -101,7 +101,7 @@ function Core() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={6} className='pt-5 pt-lg-0'>
+                            <Col lg={6} className='pt-5 pt-lg-0 pb-5'>
                                 <div className='overflow-y-auto'>
                                     <div className='h_300'>
                                         <h3 className='fw-normal fs_38 ff_NeueMachinaRegular text-white'>Elastic Vault</h3>
@@ -150,7 +150,7 @@ function Core() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={6} className='pt-5 pt-lg-0'>
+                            <Col lg={6} className='pt-5 pt-lg-0 pb-5'>
                                 <div className='overflow-y-auto'>
                                     <div className='h_300'>
                                         <h3 className='fw-normal fs_38 ff_NeueMachinaRegular text-white'>Elastic Vault</h3>
@@ -199,7 +199,7 @@ function Core() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={6} className='pt-5 pt-lg-0'>
+                            <Col lg={6} className='pt-5 pt-lg-0 pb-5'>
                                 <div className='overflow-y-auto'>
                                     <div className='h_300'>
                                         <h3 className='fw-normal fs_38 ff_NeueMachinaRegular text-white'>Elastic Vault</h3>

@@ -1,13 +1,17 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Decentralised } from '../components/Iconimg';
+import { ExtraValue } from "../components/Iconimg";
+import { SmartIndex } from "../components/Iconimg";
+import { SocialCoordination } from "../components/Iconimg";
+import { ExpansiveUtility } from "../components/Iconimg";
 
 function Tokenomics() {
     return (
-        <div className='tokenomics_bg_img py_tokenonics mb_45 mb_57'>
+        <div className='tokenomics_bg_img py_tokenonics mb_45 mb_57 mt_15'>
             <Container className >
-                <Row className='align-items-center pb-5 pb-lg-0'>
-                    <Col lg={6} className='pb_100 pb-lg-0'>
+                <Row className='align-items-center justify-content-lg-between justify-content-center pb-5 pb-lg-0'>
+                    <Col lg={5} className='pb_100 pb-lg-0'>
                         <h2 className='fs_46 fw-bold ff_NeueMachinaBold text-black m-0'>EEFI Tokenomics</h2>
                         <p className='ff_raleway fs_16 fw-normal text-black mw_448 lh_160 pb-4 pt-3 m-0'>EEFI is the special rewards token of the protocol that is minted and distributed in a decentralized fashion. It produces amplified yield during uptrends and protects from downside action during downtrends.</p>
                         <a href='' className='view_btn text-white ff_raleway fs_16 fw-medium mt-3'>View Contract Address</a>
@@ -21,9 +25,9 @@ function Tokenomics() {
                         <p className='ff_raleway fs_18 fw-bold text-black m-0 pt-4'>TOTAL SUPPLY</p>
                         <p className='fs_16 fw_600 ff_raleway text-black m-0 pt-3'>170,000</p>
                     </Col>
-                    <Col lg={6} className='pt_90 pt-lg-0'>
+                    <Col lg={5} className='pt_90 pt-lg-0'>
                         <div className='d-flex align-items-center gap-3'>
-                            <div className='pt-2'>
+                            <div className='pt-2 cursor_pointer footer_icon'>
                                 <Decentralised />
                             </div>
                             <div>
@@ -32,8 +36,8 @@ function Tokenomics() {
                             </div>
                         </div>
                         <div className='d-flex align-items-center gap-3 pt-4'>
-                            <div className='pt-2'>
-                                <Decentralised />
+                            <div className='pt-2 cursor_pointer footer_icon'>
+                                <ExtraValue />
                             </div>
                             <div>
                                 <h2 className='fs_24 fw-bold ff_NeueMachinaBold text-white'>Extra Value</h2>
@@ -41,8 +45,8 @@ function Tokenomics() {
                             </div>
                         </div>
                         <div className='d-flex align-items-center gap-3 pt-4'>
-                            <div className='pt-2'>
-                                <Decentralised />
+                            <div className='pt-2 cursor_pointer footer_icon'>
+                                <SmartIndex />
                             </div>
                             <div>
                                 <h2 className='fs_24 fw-bold ff_NeueMachinaBold text-white'>Smart Index</h2>
@@ -50,8 +54,8 @@ function Tokenomics() {
                             </div>
                         </div>
                         <div className='d-flex align-items-center gap-3 pt-4'>
-                            <div className=''>
-                                <Decentralised />
+                            <div className='cursor_pointer footer_icon'>
+                                <SocialCoordination />
                             </div>
                             <div>
                                 <h2 className='fs_24 fw-bold ff_NeueMachinaBold text-white m-0'>Social Coordination (E,E)</h2>
@@ -59,8 +63,8 @@ function Tokenomics() {
                             </div>
                         </div>
                         <div className='d-flex align-items-center gap-3 pt-4'>
-                            <div className=''>
-                                <Decentralised />
+                            <div className='cursor_pointer footer_icon'>
+                                <ExpansiveUtility />
                             </div>
                             <div>
                                 <h2 className='fs_24 fw-bold ff_NeueMachinaBold text-white m-0'>Expansive Utility Dimensions</h2>
