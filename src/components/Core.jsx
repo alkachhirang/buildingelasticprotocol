@@ -51,7 +51,7 @@ function Core() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={6} className='pt-5 pt-lg-0 pb-5'>
+                            <Col lg={6} className='pt-5 pt-lg-0 pb-5 col-12 d-flex justify-content-start align-items-start align-items-lg-center'>
                                 <div className='overflow-y-auto'>
                                     <div className='h_300'>
                                         <h3 className='fw-normal fs_38 ff_NeueMachinaRegular text-white'>Elastic Vault</h3>

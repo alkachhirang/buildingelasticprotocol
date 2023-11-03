@@ -17,15 +17,15 @@ function Header() {
         <div className='overflow-hidden'>
             <div className='header_bg_img position-relative'>
                 <div className="position-absolute blue_circle1 d-xl-flex gap-4 flex-column d-none">
-                    <div className="blue_circle"></div>
-                    <div className="blue_circle"></div>
-                    <div className="blue_circle"></div>
-                    <div className="blue_circle"></div>
-                    <div className="blue_circle"></div>
+                    <div className="blue_circle cursor_pointer"></div>
+                    <div className="blue_circle cursor_pointer"></div>
+                    <div className="blue_circle cursor_pointer"></div>
+                    <div className="blue_circle cursor_pointer"></div>
+                    <div className="blue_circle cursor_pointer"></div>
                 </div>
                 <Container className='custom_container mb-lg-3'>
                     <div className='d-flex align-items-center justify-content-between py-lg-1 py-md-2 position_fixed end-0 start-0 bg_blue z_index_3'>
-                        <img src={Navlogo} alt="Pagelogo" className='mw_68 w-100 cur-pointer' />
+                        <img src={Navlogo} alt="Pagelogo" className='mw_68 w-100 cursor_pointer' />
                         <div className='d-flex align-items-center justify-content-between gap-btn pe-3'>
                             <div onClick={() => setshow(!show)} className={`${show ? "cross" : "cross1"} menu-icon`}>
                                 <span className='crl-1'></span>
