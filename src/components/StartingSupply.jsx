@@ -57,7 +57,7 @@ function StartingSupply() {
                         </div>
                     </div>
                     <div className='text-center d-flex flex-column justify-content-center align-items-center pt-lg-5'>
-                        <p className='ff_raleway fw-normal fs_20 text-white lh_150 white_line'>(47,777 or around  <span className='fs_36 ff_jakarta'>28% </span><span className=''> of total starting supply is up for IBO)</span></p>
+                        <p className='ff_raleway fw-normal fs_20 text-white lh_150 text-decoration-underline'>(47,777 or around  <span className='fs_36 ff_jakarta'>28% </span><span className=''> of total starting supply is up for IBO)</span></p>
                         <p className='ff_raleway fs_12 fw-normal text-white mw_521 text-center opacity_8'>Individuals who hold <span className='fs_14'>$EEFI</span> will also receive an airdrop of the protocol's governance token <span className='fs_14'>$EFT</span> ...learn more</p>
                     </div>
                 </Container>

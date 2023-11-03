@@ -414,9 +414,24 @@ textarea::placeholder {
   background-repeat: no-repeat;
   width: 100%;
 }
+.btn-more:hover .dropdown-box {
+  display: flex !important;
+}
 
 .mw_68 {
   max-width: 68px;
+}
+
+.blue_circle {
+  width: 10.334px;
+  height: 10.324px;
+  border-radius: 20px;
+  background-color: #002F93;
+}
+
+.blue_circle1 {
+  right: 2%;
+  top: 5%;
 }
 
 .enter_btn {
@@ -548,6 +563,7 @@ textarea::placeholder {
 .hover_effect:hover .overlay-card {
   opacity: 1 !important;
 }
+
 
 .mb-20 {
   margin-bottom: 20px;

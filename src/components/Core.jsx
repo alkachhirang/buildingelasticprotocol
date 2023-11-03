@@ -26,7 +26,7 @@ function Core() {
                 </div>
                 <Slider {...settings}>
                     <div>
-                        <Row className='align-items-center pt-5'>
+                        <Row className='align-items-center pt-5 pb-5'>
                             <Col lg={6} className=' d-flex justify-content-center align-items-center flex-column position-relative pb-3 pb-lg-0'>
                                 <div className='position-absolute d-flex justify-content-center align-items-center top-0 bottom-0 start-0 end-0'>
                                     <img src={sample} alt="sample" className='d-none d-md-block' />
@@ -76,7 +76,7 @@ function Core() {
                         </Row>
                     </div>
                     <div>
-                        <Row className='align-items-center pt-5'>
+                        <Row className='align-items-center pt-5 pb-5'>
                             <Col lg={6} className=' d-flex justify-content-center align-items-center flex-column position-relative pb-3 pb-lg-0'>
                                 <div className='position-absolute d-flex justify-content-center align-items-center top-0 bottom-0 start-0 end-0'>
                                     <img src={sample} alt="sample" className='d-none d-md-block' />
@@ -125,7 +125,7 @@ function Core() {
                         </Row>
                     </div>
                     <div>
-                        <Row className='align-items-center pt-5'>
+                        <Row className='align-items-center pt-5 pb-5'>
                             <Col lg={6} className=' d-flex justify-content-center align-items-center flex-column position-relative pb-3 pb-lg-0'>
                                 <div className='position-absolute d-flex justify-content-center align-items-center top-0 bottom-0 start-0 end-0'>
                                     <img src={sample} alt="sample" className='d-none d-md-block' />
@@ -174,7 +174,7 @@ function Core() {
                         </Row>
                     </div>
                     <div>
-                        <Row className='align-items-center pt-5'>
+                        <Row className='align-items-center pt-5 pb-5'>
                             <Col lg={6} className=' d-flex justify-content-center align-items-center flex-column position-relative pb-3 pb-lg-0'>
                                 <div className='position-absolute d-flex justify-content-center align-items-center top-0 bottom-0 start-0 end-0'>
                                     <img src={sample} alt="sample" className='d-none d-md-block' />

@@ -15,7 +15,14 @@ function Header() {
     const [show, setshow] = useState(true)
     return (
         <div className='overflow-hidden'>
-            <div className='header_bg_img'>
+            <div className='header_bg_img position-relative'>
+                <div className="position-absolute blue_circle1 d-flex gap-4 flex-column">
+                    <div className="blue_circle"></div>
+                    <div className="blue_circle"></div>
+                    <div className="blue_circle"></div>
+                    <div className="blue_circle"></div>
+                    <div className="blue_circle"></div>
+                </div>
                 <Container className='custom_container mb-lg-3'>
                     <div className='d-flex align-items-center justify-content-between py-lg-1 py-2'>
                         <img src={Navlogo} alt="Pagelogo" className='mw_68 w-100 cur-pointer' />
@@ -33,12 +40,13 @@ function Header() {
                                 <li className='position-relative'><a href="" className='ff_raleway fs_16 fw-medium text-white nav_line'>Team</a></li>
                                 <li className='position-relative'><a href="" className='ff_raleway fs_16 fw-medium text-white nav_line'>Partners</a></li>
                                 <li className='position-relative'><a href="" className='ff_raleway fs_16 fw-medium text-white nav_line'>Roadmap</a></li>
-                                <li className='position-relative d-flex align-items-center gap-1'><a href="" className='ff_raleway fs_16 fw-medium text-white nav_line'>More</a>
+                                <li className='position-relative d-flex align-items-center btn-more gap-1'><a href="" className='ff_raleway fs_16 fw-medium text-white'>More</a>
                                     <div className="position-relative d-inline-block">
-                                        <button onClick={drop} className="btn-am ps-2 pb-1">
+                                        <button className="btn-am ps-2 pb-1">
                                             <MoreArrow />
                                         </button>
                                         <div id="dropcontent" className="dropdown-box">
+                                            
                                             <a href="" className="mb-0 ff_raleway fs_16 fw-normal d-flex align-items-center justify-content-center">
                                                 About</a>
                                             <a href="" className="mb-0 ff_raleway fs_16 fw-normal d-flex align-items-center justify-content-center">
