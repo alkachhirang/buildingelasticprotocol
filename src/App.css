@@ -731,9 +731,11 @@ textarea::placeholder {
   object-fit: cover;
   object-position: top;
 }
-.z_index_3{
+
+.z_index_3 {
   z-index: 3 !important;
 }
+
 /*----------------------------roadmap----------------------------*/
 .roadmap_bg_img {
   background-image: url(./assets/images/png/roadmap-bg-img.png);
@@ -888,7 +890,7 @@ body {
   }
 }
 
-@media (max-width:992px) {
+@media (max-width:991.98px) {
   .menu-icon {
     width: 35px;
     height: 30px;
@@ -902,7 +904,8 @@ body {
     justify-content: space-between;
     flex-direction: column;
   }
-  .bg_blue{
+
+  .bg_blue {
     background-color: #0a319f !important;
   }
 
@@ -914,7 +917,8 @@ body {
   .cross1 {
     right: -70%;
   }
-  .position_fixed{
+
+  .position_fixed {
     position: fixed !important;
   }
 
@@ -1087,7 +1091,7 @@ body {
   }
 }
 
-@media (min-width:992px) {
+@media (min-width:991.90px) {
   .mw_521 {
     max-width: 521px !important;
   }
@@ -1259,7 +1263,7 @@ body {
   }
 }
 
-@media (min-width:992px) and (max-width:1200px) {
+@media (min-width:991.90px) and (max-width:1200px) {
   :root {
     /*---------------------------font-size------------------------ */
     --fs-4sm: 14px;
