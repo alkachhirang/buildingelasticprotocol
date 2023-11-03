@@ -51,7 +51,7 @@ const Strategies = () => {
                             and looking into:
                         </p>
                     </div>
-                    <Row>
+                    <Row className="align-items-center justify-content-center">
                         <Col lg={4} md={6} className="col-12">
                             <div className="hover_effect position-relative">
                                 <img
