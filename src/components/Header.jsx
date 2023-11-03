@@ -16,7 +16,7 @@ function Header() {
     return (
         <div className='overflow-hidden'>
             <div className='header_bg_img position-relative'>
-                <div className="position-absolute blue_circle1 d-flex gap-4 flex-column">
+                <div className="position-absolute blue_circle1 d-xl-flex gap-4 flex-column d-none">
                     <div className="blue_circle"></div>
                     <div className="blue_circle"></div>
                     <div className="blue_circle"></div>
@@ -24,9 +24,9 @@ function Header() {
                     <div className="blue_circle"></div>
                 </div>
                 <Container className='custom_container mb-lg-3'>
-                    <div className='d-flex align-items-center justify-content-between py-lg-1 py-2'>
+                    <div className='d-flex align-items-center justify-content-between py-lg-1 py-md-2 position_fixed end-0 start-0 bg_blue z_index_3'>
                         <img src={Navlogo} alt="Pagelogo" className='mw_68 w-100 cur-pointer' />
-                        <div className='d-flex align-items-center justify-content-between gap-btn'>
+                        <div className='d-flex align-items-center justify-content-between gap-btn pe-3'>
                             <div onClick={() => setshow(!show)} className={`${show ? "cross" : "cross1"} menu-icon`}>
                                 <span className='crl-1'></span>
                                 <span className='crl-2'></span>
@@ -66,7 +66,7 @@ function Header() {
                 <Container className='custom_container'>
                     <Row className='head-padding p-lg-0 m-lg-0 align-items-lg-start align-content-center'>
                         <Col lg={6} className='d-flex align-items-lg-start align-items-center justify-content-center flex-column pt-lg-5'>
-                            <h2 className='mb-0 ff_NeueMachinaRegular fs_85 fw-medium text-white mw-463 text-uppercase text-center text-lg-start lh-120 pb-4'>Building
+                            <h2 className='mb-0 ff_NeueMachinaRegular fs_85 fw-medium text-white mw-463 text-uppercase text-center text-lg-start lh-120 pb-sm-4 pb-3'>Building
                                 elastic
                                 Protocol</h2>
                             <p className='mb-0 ff_raleway fs_16 fw-normal text-white mw-521 lh-150 text-capitalize pb-3 text-center text-lg-start opac'>An ecosystem of unique yield strategies that help you earn yield, amplify, and stretch it across all market conditions</p>

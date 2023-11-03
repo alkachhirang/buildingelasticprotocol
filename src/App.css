@@ -343,7 +343,7 @@ textarea::placeholder {
 }
 
 .py_core {
-  padding-top: 99px;
+  padding-top: 50px;
   padding-bottom: 99px;
 }
 
@@ -414,6 +414,7 @@ textarea::placeholder {
   background-repeat: no-repeat;
   width: 100%;
 }
+
 .btn-more:hover .dropdown-box {
   display: flex !important;
 }
@@ -482,7 +483,7 @@ textarea::placeholder {
 }
 
 .head-padding {
-  padding-top: 70px;
+  padding-top: 150px;
 }
 
 .gap-btn {
@@ -586,7 +587,8 @@ textarea::placeholder {
   padding-bottom: 100px;
   padding-top: 100px;
 }
-.mt_15{
+
+.mt_15 {
   margin-top: -15px;
 }
 
@@ -608,6 +610,7 @@ textarea::placeholder {
   border: 2 px solid transparent;
   transition: .3s linear !important;
 }
+
 .view_btn:hover {
   box-shadow: 0 8px 16px 0 #1644c354, 0 6px 20px 0 #1644c346 !important;
 }
@@ -629,8 +632,8 @@ textarea::placeholder {
 }
 
 .py_startegies {
-  padding-top: 126px;
-  padding-bottom: 126px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .text-blue {
@@ -728,7 +731,9 @@ textarea::placeholder {
   object-fit: cover;
   object-position: top;
 }
-
+.z_index_3{
+  z-index: 3 !important;
+}
 /*----------------------------roadmap----------------------------*/
 .roadmap_bg_img {
   background-image: url(./assets/images/png/roadmap-bg-img.png);
@@ -738,8 +743,8 @@ textarea::placeholder {
 }
 
 .py_roadmap {
-  padding-top: 150px;
-  padding-bottom: 142px;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .roadmap_padding {
@@ -897,13 +902,20 @@ body {
     justify-content: space-between;
     flex-direction: column;
   }
+  .bg_blue{
+    background-color: #0a319f !important;
+  }
+
 
   .cross {
     right: 0;
   }
 
   .cross1 {
-    right: -100%;
+    right: -70%;
+  }
+  .position_fixed{
+    position: fixed !important;
   }
 
   .menu-icon span {
@@ -1069,7 +1081,7 @@ body {
   }
 
   .cloud_img {
-    bottom: -15% !important;
+    bottom: -11% !important;
     right: 0;
 
   }
@@ -1080,9 +1092,19 @@ body {
     max-width: 521px !important;
   }
 
+  .py_roadmap {
+    padding-top: 150px;
+    padding-bottom: 142px;
+  }
+
   .py_tokenonics {
     padding-bottom: 140px;
     padding-top: 145px;
+  }
+
+  .py_startegies {
+    padding-top: 126px;
+    padding-bottom: 126px;
   }
 
   .mb_45 {
@@ -1117,10 +1139,11 @@ body {
     transform: translate(0%, -7%);
     margin-bottom: 0;
   }
-    .py_core {
-      padding-top: 130px;
-      padding-bottom: 110px;
-    }
+
+  .py_core {
+    padding-top: 130px;
+    padding-bottom: 110px;
+  }
 
   .header_bg_img {
     background-image: url(./assets/images/png/header_bg_img.png);
@@ -1138,7 +1161,7 @@ body {
   }
 
   .gap-btn {
-    gap: 90px;
+    gap: 42px;
   }
 
   .py_team {
@@ -1244,10 +1267,10 @@ body {
     --fs-8sm: 18px;
     --fs-2sm: 20px;
     --fs-2md: 22px;
-    --fs-4md: 24px;
+    --fs-4md: 20px !important;
     --fs-6lg: 36px;
     --fs-8lg: 38px;
-    --fs-6xl: 46px;
+    --fs-6xl: 42px !important;
     --fs-2xxl: 42px !important;
     --fs-8xxxl: 46px;
   }
