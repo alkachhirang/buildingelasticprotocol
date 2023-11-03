@@ -224,6 +224,9 @@ textarea::placeholder {
 .glass_hover:hover::before {
   left: 150%;
 }
+.z_index_3 {
+  z-index: 3 !important;
+}
 
 /*-------------------------starting-supply--------------------------- */
 .supply_bg_img {
@@ -730,10 +733,6 @@ textarea::placeholder {
   height: 20%;
   object-fit: cover;
   object-position: top;
-}
-
-.z_index_3 {
-  z-index: 3 !important;
 }
 
 /*----------------------------roadmap----------------------------*/
