@@ -138,7 +138,7 @@ html {
 
 /*----------------------------contact-us-----------------------*/
 .contact_bg_img {
-  background-image: url(./assets/images/png/form-bg-img.png);
+  background-image: url(./assets/images/webp/form-bg-img.webp);
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -234,7 +234,7 @@ textarea::placeholder {
 
 /*-------------------------starting-supply--------------------------- */
 .supply_bg_img {
-  background-image: url(./assets/images/png/supply_bg_img.png);
+  background-image: url(./assets/images/webp/supply_bg_img.webp);
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
