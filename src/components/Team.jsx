@@ -57,7 +57,7 @@ function Team() {
                                     Anton
                                 </p>
                                 <p className="fs_24 ff_raleway text-black text-center fw-normal lh_120 pb-4">
-                                    Co-Founder | Lead Developer
+                                    co-founder
                                 </p>
                                 <div className="d-flex gap-3 justify-content-center align-items-center">
                                     <Teamtwitter />
