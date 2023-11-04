@@ -1,8 +1,8 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
-import Davoice from '../assets/images/png/devoine.png';
-import Solomon from '../assets/images/png/solomon-img.png';
-import Anton from '../assets/images/png/anton-img.png';
+import Davoice from '../assets/images/webp/devoine.webp';
+import Solomon from '../assets/images/webp/solomon-img.webp';
+import Anton from '../assets/images/webp/anton-img.webp';
 import { Blueline } from '../components/Iconimg';
 import { Taemdiscord } from '../components/Iconimg';
 import { In } from '../components/Iconimg';
@@ -36,7 +36,7 @@ function Team() {
                             <div className="team_card">
                                 <img src={Solomon} alt="Davoice" className="w-100 rounded-1" />
                                 <p className="fs_24 ff_raleway fw-normal lh_120 text-black text-center mb-0 pt-3 pb-2">
-                                    Davoice
+                                    Solomon Adekale
                                 </p>
                                 <p className="fs_24 ff_raleway text-black text-center fw-normal lh_120 pb-4">
                                     co-founder
@@ -54,10 +54,10 @@ function Team() {
                             <div className="team_card">
                                 <img src={Anton} alt="Davoice" className="w-100 rounded-1" />
                                 <p className="fs_24 ff_raleway fw-normal lh_120 text-black text-center mb-0 pt-3 pb-2">
-                                    Davoice
+                                    Anton
                                 </p>
                                 <p className="fs_24 ff_raleway text-black text-center fw-normal lh_120 pb-4">
-                                    co-founder
+                                    Co-Founder | Lead Developer
                                 </p>
                                 <div className="d-flex gap-3 justify-content-center align-items-center">
                                     <Teamtwitter />

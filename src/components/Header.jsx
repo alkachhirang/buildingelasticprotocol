@@ -2,9 +2,9 @@ import React from 'react';
 import { useState }
     from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Navlogo from '../assets/images/png/nav-logo-img.png';
-import Roboteimg from '../assets/images/png/robote-img.png';
-import Robote2 from '../assets/images/png/robote2-img.png';
+import Navlogo from '../assets/images/webp/nav-logo-img (1).webp';
+import Roboteimg from '../assets/images/webp/robote-img.webp';
+import Robote2 from '../assets/images/webp/robote2-img.webp';
 import { MoreArrow } from '../components/Iconimg';
 
 

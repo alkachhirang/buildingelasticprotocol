@@ -3,9 +3,9 @@ import { Col, Container, Row } from 'react-bootstrap';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import corecircleimg from '../assets/images/png/core-circle-img.png';
+import corecircleimg from '../assets/images/webp/core-circle-img.webp';
 import { Deposite } from '../components/Iconimg';
-import sample from '../assets/images/png/sample-img.png';
+import sample from '../assets/images/webp/sample-img.webp';
 
 
 function Core() {

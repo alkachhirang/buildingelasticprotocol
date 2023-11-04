@@ -301,7 +301,7 @@ textarea::placeholder {
 
 /*---------------------------our-team-----------------------------*/
 .team_bg_img {
-  background-image: linear-gradient(360deg, #fff 24%, transparent 24%), url('./assets/images/png/team-bg-img.png') !important;
+  background-image: linear-gradient(360deg, #fff 24%, transparent 24%), url('./assets/images/webp/team-bg-img.webp') !important;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -322,7 +322,7 @@ textarea::placeholder {
 /*--------------------------amplify-section--------------------------*/
 
 .amplify_bg_img {
-  background-image: linear-gradient(360deg, black 43%, transparent 24%), url('./assets/images/png/amplify_bg_img.png') !important;
+  background-image: linear-gradient(360deg, black 43%, transparent 24%), url('./assets/images/webp/amplify_bg_img.webp') !important;
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
@@ -339,7 +339,7 @@ textarea::placeholder {
 
 /*---------------------------core-section--------------------------*/
 .core_bg_img {
-  background-image: url(./assets/images/png/core-bg-img.png);
+  background-image: url(./assets/images/webp/core-bg-img.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -415,7 +415,7 @@ textarea::placeholder {
 
 /*----------------------------header-section---------------------*/
 .header_bg_img {
-  background-image: url(./assets/images/png/bg-header2.png);
+  background-image: url(./assets/images/webp/bg-header2.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -583,7 +583,7 @@ textarea::placeholder {
 
 /*-----------------------------tokenomics-----------------------*/
 .tokenomics_bg_img {
-  background-image: url(./assets/images/png/bg-twocolour2.png);
+  background-image: url(./assets/images/webp/bg-twocolour2.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -994,7 +994,7 @@ body {
 
 @media (max-width:767.99px) {
   .team_bg_img {
-    background-image: linear-gradient(360deg, #fff 70%, transparent 70%), url('./assets/images/png/team-bg-img.png') !important;
+    background-image: linear-gradient(360deg, #fff 70%, transparent 70%), url('./assets/images/webp/team-bg-img.webp') !important;
     background-size: cover;
   }
 
@@ -1005,7 +1005,7 @@ body {
 
 @media (min-width:390px) and (max-width:500px) {
   .amplify_bg_img1 {
-    background-image: linear-gradient(360deg, black 34%, transparent 24%), url('./assets/images/png/amplify_bg_img.png') !important;
+    background-image: linear-gradient(360deg, black 34%, transparent 24%), url('./assets/images/webp/amplify_bg_img.webp') !important;
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
@@ -1020,7 +1020,7 @@ body {
 
 @media (min-width:500px) and (max-width:576px) {
   .amplify_bg_img1 {
-    background-image: linear-gradient(360deg, black 26%, transparent 24%), url('./assets/images/png/amplify_bg_img.png') !important;
+    background-image: linear-gradient(360deg, black 26%, transparent 24%), url('./assets/images/webp/amplify_bg_img.webp') !important;
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
@@ -1047,7 +1047,7 @@ body {
   }
 
   .amplify_bg_img {
-    background-image: url("./assets/images/png/amplify_bg_img.png") !important;
+    background-image: url("./assets/images/webp/amplify_bg_img.webp") !important;
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1153,7 +1153,7 @@ body {
   }
 
   .header_bg_img {
-    background-image: url(./assets/images/png/header_bg_img.png);
+    background-image: url(./assets/images/webp/header_bg_img.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1161,7 +1161,7 @@ body {
   }
 
   .tokenomics_bg_img {
-    background-image: url(./assets/images/png/bg-twocolour.png);
+    background-image: url(./assets/images/webp/bg-twocolour.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

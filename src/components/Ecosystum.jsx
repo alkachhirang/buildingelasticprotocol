@@ -1,11 +1,11 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Olympus from '../assets/images/png/olympus.png';
-import BondProtocol from '../assets/images/png/bond-protocol.png';
-import Foundry from '../assets/images/png/fjord.png';
-import Balancer from '../assets/images/png/balancer.png';
-import Gearbox from '../assets/images/png/gear-box.png';
-import Uniswap from '../assets/images/png/uniswap.png';
+import Olympus from '../assets/images/webp/olympus.webp';
+import BondProtocol from '../assets/images/webp/bond-protocol.webp';
+import Foundry from '../assets/images/webp/fjord.webp';
+import Balancer from '../assets/images/webp/balancer.webp';
+import Gearbox from '../assets/images/webp/gear-box.webp';
+import Uniswap from '../assets/images/webp/uniswap.webp';
 
 function Ecosystum() {
     return (

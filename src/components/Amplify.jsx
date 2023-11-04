@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import cloudimg from '../assets/images/png/Clouds-bottom.png'
+import cloudimg from '../assets/images/webp/Clouds-bottom.webp'
 
 function Amplify() {
     return (

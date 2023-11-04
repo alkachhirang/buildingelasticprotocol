@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
-import footerlogo from '../assets/images/png/footer-logo.png';
+import footerlogo from '../assets/images/webp/footer-logo.webp';
 import { Youtube } from '../components/Iconimg';
 import { Github } from '../components/Iconimg';
 import { Twitter } from '../components/Iconimg';
