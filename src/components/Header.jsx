@@ -24,7 +24,7 @@ function Header() {
                     <div className="blue_circle cursor_pointer"></div>
                 </div>
                 <Container className='custom_container mb-lg-3'>
-                    <div className='d-flex align-items-center justify-content-between py-lg-1 py-md-2 position_fixed end-0 start-0 bg_blue z_index_3'>
+                    <div className='d-flex align-items-center justify-content-between py-lg-1 py-md-2 position_fixed end-0 start-0 bg_blue z_index_3 px-5 px-lg-0'>
                         <img src={Navlogo} alt="Pagelogo" className='mw_68 w-100 cursor_pointer' />
                         <div className='d-flex align-items-center justify-content-between gap-btn pe-3'>
                             <div onClick={() => setshow(!show)} className={`${show ? "cross" : "cross1"} menu-icon`}>
@@ -65,14 +65,14 @@ function Header() {
 
                 <Container className='custom_container'>
                     <Row className='head-padding p-lg-0 m-lg-0 align-items-lg-start align-content-center'>
-                        <Col lg={6} className='d-flex align-items-lg-start align-items-center justify-content-center flex-column pt-lg-5'>
+                        <Col lg={6} className='d-flex align-items-lg-start align-items-center justify-content-center flex-column pt-lg-5' data-aos="fade-right">
                             <h2 className='mb-0 ff_NeueMachinaRegular fs_85 fw-medium text-white mw-463 text-uppercase text-center text-lg-start lh-120 pb-sm-4 pb-3'>Building
                                 elastic
                                 Protocol</h2>
                             <p className='mb-0 ff_raleway fs_16 fw-normal text-white mw-521 lh-150 text-capitalize pb-3 text-center text-lg-start opac'>An ecosystem of unique yield strategies that help you earn yield, amplify, and stretch it across all market conditions</p>
                             <a href='' className='mb-0 ff_raleway fs_18 fw-bold text-white text-decoration-underline'>Audited by Omniscia</a>
                         </Col>
-                        <Col lg={6} className='d-flex align-items-lg-start justify-content-lg-end justify-content-center'>
+                        <Col lg={6} className='d-flex align-items-lg-start justify-content-lg-end justify-content-center' data-aos="fade-up">
                             <img src={Robote2} alt="roboimg2" className='d-lg-none d-block robo-img w-100' />
                             <img src={Roboteimg} alt="Roboimg" className='robo-img p-lg-0 mt-2 w-100 d-lg-block d-none' />
                         </Col>

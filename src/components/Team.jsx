@@ -13,10 +13,10 @@ function Team() {
     return (
         <div>
             <div className='team_bg_img py_team'>
-                <h2 className='fs_46 text-center ff_NeueMachinaBold text-white pb-lg-5'>Our Team</h2>
+                <h2 className='fs_46 text-center ff_NeueMachinaBold text-white pb-lg-5' data-aos="fade-down">Our Team</h2>
                 <Container className='custom_container pt-5'>
                     <Row className='justify-content-center align-items-center'>
-                        <Col lg={4} sm={6} className="col-12">
+                        <Col lg={4} sm={6} className="col-12" data-aos="zoom-in-up">
                             <div className="team_card">
                                 <img src={Davoice} alt="Davoice" className="w-100 rounded-1" />
                                 <p className="fs_24 ff_raleway fw-normal lh_120 text-black text-center mb-0 pt-3 pb-2">
@@ -32,7 +32,7 @@ function Team() {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4} sm={6} className="col-12 pt-4 pt-sm-0">
+                        <Col lg={4} sm={6} className="col-12 pt-4 pt-sm-0" data-aos="zoom-in-up">
                             <div className="team_card">
                                 <img src={Solomon} alt="Davoice" className="w-100 rounded-1" />
                                 <p className="fs_24 ff_raleway fw-normal lh_120 text-black text-center mb-0 pt-3 pb-2">
@@ -50,7 +50,7 @@ function Team() {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4} sm={6} className="col-12 pt-4 pt-lg-0">
+                        <Col lg={4} sm={6} className="col-12 pt-4 pt-lg-0" data-aos="zoom-in-up">
                             <div className="team_card">
                                 <img src={Anton} alt="Davoice" className="w-100 rounded-1" />
                                 <p className="fs_24 ff_raleway fw-normal lh_120 text-black text-center mb-0 pt-3 pb-2">

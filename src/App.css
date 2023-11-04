@@ -8,6 +8,10 @@
   list-style: none !important;
   text-decoration: none !important;
 }
+body,
+html {
+  overflow-x: hidden !important;
+}
 
 .ff_jakarta {
   font-family: 'Plus Jakarta Sans', sans-serif;

@@ -20,9 +20,9 @@ function Core() {
     return (
         <div className='core_bg_img position-relative mt_4 py_core'>
             <Container className='custom_container'>
-                <h2 className='ff_NeueMachinaBold fs_46 text-white text-center'>Core Strategies</h2>
+                <h2 className='ff_NeueMachinaBold fs_46 text-white text-center' data-aos="fade-down">Core Strategies</h2>
                 <div className='d-flex justify-content-center align-items-center'>
-                    <p className='ff_raleway fw-normal fs_16 text-white text-center mw_819 opacity_8 pt-md-4 pt-2 mb-0'>Our initial strategies use powerful burgeoning trends like Real Yield, Rebase, and others to generate cutting-edged yield innovations. These yield strategies stretch beyond the drought in stable coins and set the value for our native protocol token $EEFI. Check them out!'</p>
+                    <p className='ff_raleway fw-normal fs_16 text-white text-center mw_819 opacity_8 pt-md-4 pt-2 mb-0' data-aos="fade-down">Our initial strategies use powerful burgeoning trends like Real Yield, Rebase, and others to generate cutting-edged yield innovations. These yield strategies stretch beyond the drought in stable coins and set the value for our native protocol token $EEFI. Check them out!'</p>
                 </div>
                 <Slider {...settings}>
                     <div>
@@ -31,7 +31,7 @@ function Core() {
                                 <div className='position-absolute d-flex justify-content-center align-items-center top-0 bottom-0 start-0 end-0'>
                                     <img src={sample} alt="sample" className='d-none d-md-block' />
                                 </div>
-                                <div className='core_card'>
+                                <div className='core_card' data-aos="flip-right">
                                     <a href='' className='innovation text-white ff_raleway fs_14 fw-normal lh_160'>Innovation</a>
                                     <div className='mt-4 d-flex justify-content-center'>
                                         <img src={corecircleimg} alt="corecircleimg" className='' />
@@ -51,7 +51,7 @@ function Core() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={6} className='pt-5 pt-lg-0 pb-5 col-12 d-flex justify-content-start align-items-start align-items-lg-center'>
+                            <Col lg={6} className='pt-5 pt-lg-0 pb-5 col-12 d-flex justify-content-start align-items-start align-items-lg-center' data-aos="fade-left">
                                 <div className='overflow-y-auto'>
                                     <div className='h_300'>
                                         <h3 className='fw-normal fs_38 ff_NeueMachinaRegular text-white'>Elastic Vault</h3>
@@ -81,7 +81,7 @@ function Core() {
                                 <div className='position-absolute d-flex justify-content-center align-items-center top-0 bottom-0 start-0 end-0'>
                                     <img src={sample} alt="sample" className='d-none d-md-block' />
                                 </div>
-                                <div className='core_card'>
+                                <div className='core_card' data-aos="flip-right">
                                     <a href='' className='innovation text-white ff_raleway fs_14 fw-normal lh_160'>Innovation</a>
                                     <div className='mt-4 d-flex justify-content-center'>
                                         <img src={corecircleimg} alt="corecircleimg" className='' />
@@ -101,7 +101,7 @@ function Core() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={6} className='pt-5 pt-lg-0 pb-5'>
+                            <Col lg={6} className='pt-5 pt-lg-0 pb-5' data-aos="fade-left">
                                 <div className='overflow-y-auto'>
                                     <div className='h_300'>
                                         <h3 className='fw-normal fs_38 ff_NeueMachinaRegular text-white'>Elastic Vault</h3>
@@ -130,7 +130,7 @@ function Core() {
                                 <div className='position-absolute d-flex justify-content-center align-items-center top-0 bottom-0 start-0 end-0'>
                                     <img src={sample} alt="sample" className='d-none d-md-block' />
                                 </div>
-                                <div className='core_card'>
+                                <div className='core_card' data-aos="flip-right">
                                     <a href='' className='innovation text-white ff_raleway fs_14 fw-normal lh_160'>Innovation</a>
                                     <div className='mt-4 d-flex justify-content-center'>
                                         <img src={corecircleimg} alt="corecircleimg" className='' />
@@ -150,7 +150,7 @@ function Core() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={6} className='pt-5 pt-lg-0 pb-5'>
+                            <Col lg={6} className='pt-5 pt-lg-0 pb-5' data-aos="fade-left">
                                 <div className='overflow-y-auto'>
                                     <div className='h_300'>
                                         <h3 className='fw-normal fs_38 ff_NeueMachinaRegular text-white'>Elastic Vault</h3>
@@ -179,7 +179,7 @@ function Core() {
                                 <div className='position-absolute d-flex justify-content-center align-items-center top-0 bottom-0 start-0 end-0'>
                                     <img src={sample} alt="sample" className='d-none d-md-block' />
                                 </div>
-                                <div className='core_card'>
+                                <div className='core_card' data-aos="flip-right">
                                     <a href='' className='innovation text-white ff_raleway fs_14 fw-normal lh_160'>Innovation</a>
                                     <div className='mt-4 d-flex justify-content-center'>
                                         <img src={corecircleimg} alt="corecircleimg" className='' />
@@ -199,7 +199,7 @@ function Core() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={6} className='pt-5 pt-lg-0 pb-5'>
+                            <Col lg={6} className='pt-5 pt-lg-0 pb-5' data-aos="fade-left">
                                 <div className='overflow-y-auto'>
                                     <div className='h_300'>
                                         <h3 className='fw-normal fs_38 ff_NeueMachinaRegular text-white'>Elastic Vault</h3>

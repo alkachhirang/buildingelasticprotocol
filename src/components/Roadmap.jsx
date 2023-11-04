@@ -8,9 +8,9 @@ function Roadmap() {
     <div>
       <div className='roadmap_bg_img min-vh-100 py_roadmap'>
         <Container className='custom_container'>
-          <h2 className='ff_NeueMachinaBold fw-bold fs_46 text-white text-center roadmap_padding'>Roadmap</h2>
+          <h2 className='ff_NeueMachinaBold fw-bold fs_46 text-white text-center roadmap_padding' data-aos="fade-down">Roadmap</h2>
           <div className="timeline">
-            <div className="container1 left">
+            <div className="container1 left" data-aos="fade-right">
               <div className="content">
                 <h2 className='ff_jakarta fw-medium fs_20 text-white pb-3'>2022</h2>
                 <ul className='bullet_circle'>
@@ -28,7 +28,7 @@ function Roadmap() {
                 <Roadmapright />
               </div>
             </div>
-            <div className="container1 right">
+            <div className="container1 right" data-aos="fade-left">
               <div className="content">
                 <h2 className='ff_jakarta fw-medium fs_20 text-white pb-3'>2023</h2>
                 <ul className='bullet_circle'>
@@ -43,7 +43,7 @@ function Roadmap() {
                 <Roadmapright />
               </div>
             </div>
-            <div className="container1 left">
+            <div className="container1 left" data-aos="fade-right">
               <div className="content">
                 <h2 className='ff_jakarta fw-medium fs_20 text-white pb-3'>Q3 2023</h2>
                 <ul className='bullet_circle'>
@@ -61,7 +61,7 @@ function Roadmap() {
                 <Roadmapright />
               </div>
             </div>
-            <div className="container1 right">
+            <div className="container1 right" data-aos="fade-left">
               <div className="content">
                 <h2 className='ff_jakarta fw-medium fs_20 text-white pb-3'>Q4 2023</h2>
                 <ul className='bullet_circle'>
@@ -77,7 +77,7 @@ function Roadmap() {
                 <Roadmapright />
               </div>
             </div>
-            <div className="container1 left">
+            <div className="container1 left" data-aos="fade-right">
               <div className="content">
                 <h2 className='ff_jakarta fw-medium fs_20 text-white pb-3'>Q1 2024</h2>
                 <ul className='bullet_circle'>
@@ -95,7 +95,7 @@ function Roadmap() {
                 <Roadmapright />
               </div>
             </div>
-            <div className="container1 right">
+            <div className="container1 right" data-aos="fade-left">
               <div className="content">
                 <h2 className='ff_jakarta fw-medium fs_20 text-white pb-3'>Q2 2024</h2>
                 <ul className='bullet_circle'>
@@ -109,7 +109,7 @@ function Roadmap() {
                 <Roadmapright />
               </div>
             </div>
-            <div className="container1 left">
+            <div className="container1 left" data-aos="fade-right">
               <div className="content">
                 <h2 className='ff_jakarta fw-medium fs_20 text-white pb-3'>Q3 2024</h2>
                 <ul className='bullet_circle'>
@@ -124,7 +124,7 @@ function Roadmap() {
                 <Roadmapright />
               </div>
             </div>
-            <div className="container1 right">
+            <div className="container1 right" data-aos="fade-left">
               <div className="content">
                 <h2 className='ff_jakarta fw-medium fs_20 text-white pb-3'>Q4 2024</h2>
                 <ul className='bullet_circle'>
@@ -136,7 +136,7 @@ function Roadmap() {
                 <Roadmapright />
               </div>
             </div>
-            <div className="container1 left">
+            <div className="container1 left" data-aos="fade-right">
               <div className="content">
                 <h2 className='ff_jakarta fw-medium fs_20 text-white pb-3'>Q1 2025</h2>
                 <ul className='bullet_circle'>
@@ -152,7 +152,7 @@ function Roadmap() {
                 <Roadmapright />
               </div>
             </div>
-            <div className="container1 right">
+            <div className="container1 right" data-aos="fade-left">
               <div className="content">
                 <h2 className='ff_jakarta fw-medium fs_20 text-white pb-3'>Q2 2025</h2>
                 <ul className='bullet_circle'>
