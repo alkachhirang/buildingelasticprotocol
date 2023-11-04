@@ -70,7 +70,7 @@ const Strategies = () => {
                                     />
                                 </div>
                                 <div className="position-absolute nft_card">
-                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                    <p className="fs_20 text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         NFT
                                     </p>
                                     <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
@@ -102,7 +102,7 @@ const Strategies = () => {
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
 
-                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
+                                    <h3 className="text-white fs_20 ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
                                     </h3>
                                     <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
@@ -156,7 +156,7 @@ const Strategies = () => {
                                     />
                                 </div>
                                 <div className="position-absolute nft_card">
-                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                    <p className="fs_20 text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         NFT
                                     </p>
                                     <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
@@ -188,7 +188,7 @@ const Strategies = () => {
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
 
-                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
+                                    <h3 className="text-white fs_20 ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
                                     </h3>
                                     <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
@@ -242,7 +242,7 @@ const Strategies = () => {
                                     />
                                 </div>
                                 <div className="position-absolute nft_card">
-                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0 text-uppercase">
+                                    <p className="fs_20 text-white lh_120 ff_NeueMachinaUltrabold mb-0 text-uppercase">
                                         OPTIONS
                                     </p>
                                     <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
@@ -274,7 +274,7 @@ const Strategies = () => {
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
 
-                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
+                                    <h3 className="text-white fs_20 ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
                                     </h3>
                                     <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
@@ -328,7 +328,7 @@ const Strategies = () => {
                                     />
                                 </div>
                                 <div className="position-absolute nft_card">
-                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                    <p className="fs_20 text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         BONDs
                                     </p>
                                     <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
@@ -360,7 +360,7 @@ const Strategies = () => {
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
 
-                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
+                                    <h3 className="text-white fs_20 ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
                                     </h3>
                                     <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
@@ -414,7 +414,7 @@ const Strategies = () => {
                                     />
                                 </div>
                                 <div className="position-absolute nft_card">
-                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                    <p className="fs_20 text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         Social Trading
                                     </p>
                                     <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
@@ -446,7 +446,7 @@ const Strategies = () => {
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
 
-                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
+                                    <h3 className="text-white fs_20 ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
                                     </h3>
                                     <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
@@ -500,7 +500,7 @@ const Strategies = () => {
                                     />
                                 </div>
                                 <div className="position-absolute nft_card">
-                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                    <p className="fs_20 text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         PERPS and Delta Neutral
                                     </p>
                                     <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
@@ -532,7 +532,7 @@ const Strategies = () => {
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
 
-                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
+                                    <h3 className="text-white fs_20 ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
                                     </h3>
                                     <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
@@ -586,7 +586,7 @@ const Strategies = () => {
                                     />
                                 </div>
                                 <div className="position-absolute nft_card">
-                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                    <p className="fs_20 text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         STABLECOINs
                                     </p>
                                     <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
@@ -618,7 +618,7 @@ const Strategies = () => {
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
 
-                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
+                                    <h3 className="text-white fs_20 ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
                                     </h3>
                                     <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
@@ -672,7 +672,7 @@ const Strategies = () => {
                                     />
                                 </div>
                                 <div className="position-absolute nft_card">
-                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                    <p className="fs_20 text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         Ai Smart Vaults
                                     </p>
                                     <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
@@ -704,7 +704,7 @@ const Strategies = () => {
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
 
-                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
+                                    <h3 className="text-white fs_20 ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
                                     </h3>
                                     <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
@@ -758,7 +758,7 @@ const Strategies = () => {
                                     />
                                 </div>
                                 <div className="position-absolute nft_card">
-                                    <p className="fs_md text-white lh_120 ff_NeueMachinaUltrabold mb-0">
+                                    <p className="fs_20 text-white lh_120 ff_NeueMachinaUltrabold mb-0">
                                         Ai Smart Vaults
                                     </p>
                                     <p className="text-white lh_160 fw-normal ff-raleway fs_6sm mb-0 pt-1">
@@ -790,7 +790,7 @@ const Strategies = () => {
                                         Exchange, Jones DAO and many others on Arbitrum.
                                     </p>
 
-                                    <h3 className="text-white fs_md ff-raleway fw-semibold line-160">
+                                    <h3 className="text-white fs_20 ff-raleway fw-semibold line-160">
                                         Platforms:{" "}
                                     </h3>
                                     <div className="row d-flex justify-content-between mt-2 pt-1 w-100">
