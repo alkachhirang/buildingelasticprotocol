@@ -1,11 +1,15 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { useState } from 'react';
 
 
 
-function Contact() {
+const Contact = () => {
+    const [name, setname] = useState("");
+    const contact = (e) => {
+        setname(e.target.value);
+        console.log(e.target.value);
+    }
     return (
         <div>
             <div className='contact_bg_img py_contact mt_15'>
@@ -16,6 +20,9 @@ function Contact() {
                         <div className="w-100 d-flex gap-5 pb-3">
                             <input
                                 type="text"
+                                value={name}
+                                onChange={contact}
+                                name='name'
                                 placeholder="First Name"
                                 className="w-50 py-4 bg-transparent outline_none border_bottom ff_raleway fs_16 fw-normal text-white lh-150"
                             />
@@ -41,7 +48,7 @@ function Contact() {
                             name="#"
                             id="#"
                             rows="4"
-                            placeholder="Massage"
+                            placeholder="Message"
                             className="resize_none w-100 bg-transparent outline_none border_bottom ff_raleway fs_16 fw-normal text-white lh-150 pt-5"
                         ></textarea>
                     </form>

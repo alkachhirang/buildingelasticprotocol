@@ -1,6 +1,5 @@
 import React from 'react';
-import { useState }
-    from 'react';
+import { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Navlogo from '../assets/images/webp/nav-logo-img (1).webp';
 import Roboteimg from '../assets/images/webp/robote-img.webp';
@@ -65,7 +64,7 @@ function Header() {
 
                 <Container className=''>
                     <Row className='head-padding p-lg-0 m-lg-0 align-items-lg-start align-content-center'>
-                        <Col lg={6} className='d-flex align-items-lg-start align-items-center justify-content-center flex-column pt-lg-5' data-aos="fade-right">
+                        <Col lg={6} className='d-flex align-items-lg-start align-items-center justify-content-center flex-column pt-xl-5 pt_lg_100' data-aos="fade-right">
                             <h2 className='mb-0 ff_NeueMachinaRegular fs_85 fw-medium text-white mw-463 text-uppercase text-center text-lg-start lh-120 pb-sm-4 pb-3'>Building
                                 elastic
                                 Protocol</h2>
@@ -78,9 +77,6 @@ function Header() {
                         </Col>
                     </Row>
                 </Container>
-
-
-
             </div>
         </div>
     )
