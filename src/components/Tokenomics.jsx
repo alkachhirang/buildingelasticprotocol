@@ -12,9 +12,9 @@ function Tokenomics() {
             <Container className >
                 <Row className='align-items-center justify-content-center pb-5 pb-lg-0'>
                     <Col lg={6} className='pb_100 pb-lg-0' data-aos="fade-right">
-                        <h2 className='fs_46 fw-bold ff_NeueMachinaBold text-black m-0 pb-1 pb-lg-0'>EEFI Tokenomics</h2>
+                        <h2 className='fs_46 fw-bold ff_NeueMachinaBold text-black m-0 pb-lg-0'>EEFI Tokenomics</h2>
                         <p className='ff_raleway fs_16 fw-normal text-black mw_448 lh_160 pb-5 pt-4 pt-lg-3 m-0'>EEFI is the special rewards token of the protocol that is minted and distributed in a decentralized fashion. It produces amplified yield during uptrends and protects from downside action during downtrends.</p>
-                        <a href='' className='view_btn text-white ff_raleway fs_16 fw-medium mt-3'>View Contract Address</a>
+                        <a href='' className='view_btn text-white ff_raleway fs_16 fw-medium mt-2'>View Contract Address</a>
                         <p className='fs_24 fw-bold ff_NeueMachinaBold text-black pt-5 pb-2 m-0'>IBO TOKENOMICS</p>
                         <p className='fs_18 fw-bold ff_raleway text-black pt-4 m-0'>IBO Round 1 Price</p>
                         <p className='fs_16 fw_600 ff_raleway color_blue pt-3 m-0'>1 EEFI = $12</p>
