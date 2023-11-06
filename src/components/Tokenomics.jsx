@@ -10,8 +10,8 @@ function Tokenomics() {
     return (
         <div className='tokenomics_bg_img py_tokenonics mb_45 mb_57 mt_15'>
             <Container className >
-                <Row className='align-items-center justify-content-lg-between justify-content-center pb-5 pb-lg-0'>
-                    <Col lg={5} className='pb_100 pb-lg-0' data-aos="fade-right">
+                <Row className='align-items-center justify-content-center pb-5 pb-lg-0'>
+                    <Col lg={6} className='pb_100 pb-lg-0' data-aos="fade-right">
                         <h2 className='fs_46 fw-bold ff_NeueMachinaBold text-black m-0 pb-1 pb-lg-0'>EEFI Tokenomics</h2>
                         <p className='ff_raleway fs_16 fw-normal text-black mw_448 lh_160 pb-5 pt-4 pt-lg-3 m-0'>EEFI is the special rewards token of the protocol that is minted and distributed in a decentralized fashion. It produces amplified yield during uptrends and protects from downside action during downtrends.</p>
                         <a href='' className='view_btn text-white ff_raleway fs_16 fw-medium mt-3'>View Contract Address</a>
@@ -25,7 +25,7 @@ function Tokenomics() {
                         <p className='ff_raleway fs_18 fw-bold text-black m-0 pt-4 pb-1'>TOTAL SUPPLY</p>
                         <p className='fs_16 fw_600 ff_raleway text-black m-0 pt-3'>170,000</p>
                     </Col>
-                    <Col lg={5} className='pt_90 pt-lg-0'>
+                    <Col lg={6} className='pt_90 pt-lg-0'>
                         <div className='d-flex align-items-center gap-3' data-aos="fade-left">
                             <div className='pt-2 cursor_pointer footer_icon'>
                                 <Decentralised />

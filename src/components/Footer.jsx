@@ -15,7 +15,7 @@ function Footer() {
     return (
         <div>
             <div className='bg-white'>
-                <Container className='custom_container py_footer'>
+                <Container className='py_footer'>
                     <div className='text-center'>
                         <img src={footerlogo} alt="footerlogo" className='' />
                         <p className='fw-normal ff_raleway fs_16 text_blue pt-3 pb-3'>Join Our Community</p>

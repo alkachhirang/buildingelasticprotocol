@@ -8,8 +8,8 @@ import Col from 'react-bootstrap/Col';
 function Contact() {
     return (
         <div>
-            <div className='contact_bg_img py_contact d-none d-lg-block mt_15'>
-                <Container className='custom_container'>
+            <div className='contact_bg_img py_contact mt_15'>
+                <Container>
                     <h2 className='ff_NeueMachinaBold fs_46 text-white text-center' data-aos="fade-down">Contact Us</h2>
                     <p className='text-white opacity_8 ff_raleway fw-normal fs_16 text-center pb-5' data-aos="fade-down">Have a question or want to contribute? Reach out to us.</p>
                     <form className="pt-4 pb-4 w-100">

@@ -12,7 +12,7 @@ function Ecosystum() {
         <div>
 
             <div className="py_partner">
-                <Container className="custum_container">
+                <Container>
                     <h2 className="ff_NeueMachinaBold fs_46 text_blue text-center pb_63 pb-5" data-aos="fade-down">
                         Ecosystem Partners
                     </h2>

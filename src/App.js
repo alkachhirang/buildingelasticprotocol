@@ -30,11 +30,11 @@ function App() {
       <Header />
       <Amplify />
       <Core />
-      <Tokenomics/>
+      <Tokenomics />
+      <StartingSupply />
+      <Future />
       <Team />
       <Ecosystum />
-      <StartingSupply />
-      <Future/>
       <Roadmap />
       <Contact />
       <Footer />

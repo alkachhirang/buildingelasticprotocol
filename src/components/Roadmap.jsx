@@ -7,7 +7,7 @@ function Roadmap() {
   return (
     <div>
       <div className='roadmap_bg_img min-vh-100 py_roadmap'>
-        <Container className='custom_container'>
+        <Container>
           <h2 className='ff_NeueMachinaBold fw-bold fs_46 text-white text-center roadmap_padding' data-aos="fade-down">Roadmap</h2>
           <div className="timeline">
             <div className="container1 left" data-aos="fade-right">

@@ -23,8 +23,8 @@ function Header() {
                     <div className="blue_circle cursor_pointer"></div>
                     <div className="blue_circle cursor_pointer"></div>
                 </div>
-                <Container className='custom_container mb-lg-3'>
-                    <div className='d-flex align-items-center justify-content-between py-lg-1 py-md-2 position_fixed end-0 start-0 bg_blue z_index_3 px-5 px-lg-0'>
+                <Container className='mb-lg-3'>
+                    <div className='d-flex align-items-center justify-content-between py-lg-1 py-md-2 position_fixed end-0 start-0 bg_blue z_index_3 px-sm-5 px-2 px-lg-0'>
                         <img src={Navlogo} alt="Pagelogo" className='mw_68 w-100 cursor_pointer' />
                         <div className='d-flex align-items-center justify-content-between gap-btn pe-3'>
                             <div onClick={() => setshow(!show)} className={`${show ? "cross" : "cross1"} menu-icon`}>
@@ -63,7 +63,7 @@ function Header() {
                     </div >
                 </Container >
 
-                <Container className='custom_container'>
+                <Container className=''>
                     <Row className='head-padding p-lg-0 m-lg-0 align-items-lg-start align-content-center'>
                         <Col lg={6} className='d-flex align-items-lg-start align-items-center justify-content-center flex-column pt-lg-5' data-aos="fade-right">
                             <h2 className='mb-0 ff_NeueMachinaRegular fs_85 fw-medium text-white mw-463 text-uppercase text-center text-lg-start lh-120 pb-sm-4 pb-3'>Building

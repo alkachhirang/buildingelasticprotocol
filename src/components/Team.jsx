@@ -14,7 +14,7 @@ function Team() {
         <div>
             <div className='team_bg_img py_team'>
                 <h2 className='fs_46 text-center ff_NeueMachinaBold text-white pb-lg-5' data-aos="fade-down">Our Team</h2>
-                <Container className='custom_container pt-5'>
+                <Container className='pt-5'>
                     <Row className='justify-content-center align-items-center'>
                         <Col lg={4} sm={6} className="col-12" data-aos="zoom-in-up">
                             <div className="team_card">

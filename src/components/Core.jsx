@@ -19,7 +19,7 @@ function Core() {
     };
     return (
         <div className='core_bg_img position-relative mt_4 py_core'>
-            <Container className='custom_container'>
+            <Container>
                 <h2 className='ff_NeueMachinaBold fs_46 text-white text-center' data-aos="fade-down">Core Strategies</h2>
                 <div className='d-flex justify-content-center align-items-center'>
                     <p className='ff_raleway fw-normal fs_16 text-white text-center mw_819 opacity_8 pt-md-4 pt-2 mb-0' data-aos="fade-down">Our initial strategies use powerful burgeoning trends like Real Yield, Rebase, and others to generate cutting-edged yield innovations. These yield strategies stretch beyond the drought in stable coins and set the value for our native protocol token $EEFI. Check them out!'</p>

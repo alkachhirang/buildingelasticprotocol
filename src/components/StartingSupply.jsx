@@ -5,7 +5,7 @@ function StartingSupply() {
     return (
         <div className='supply_bg_img'>
             <div>
-                <Container className='custom_container py_startimgsupply'>
+                <Container className='py_startimgsupply'>
                     <h3 className='ff_jakarta fw-bold fs_52 text-white text-center' data-aos="fade-down">170k Total Starting Supply</h3>
                     <p className='ff_raleway fw-medium fs_16 text-white text-center pb-5' data-aos="fade-down">Initial BONDing Offering (IBO)* Phases</p>
                     <div className='d-flex align-items-center justify-content-center'>
