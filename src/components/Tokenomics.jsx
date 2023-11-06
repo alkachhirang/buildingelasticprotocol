@@ -41,7 +41,7 @@ function Tokenomics() {
                             </div>
                             <div>
                                 <h2 className='fs_24 fw-bold ff_NeueMachinaBold text-white'>Extra Value</h2>
-                                <p className='fw-normal fs_16 ff_raleway text-white opacity_8 m-0 pt-2'>Can be highly deflationary during market uptrends</p>
+                                <p className='fw-normal fs_16 ff_raleway text-white opacity_8 m-0 pt-3'>Can be highly deflationary during market uptrends</p>
                             </div>
                         </div>
                         <div className='d-flex align-items-center gap-3 pt-4'data-aos="fade-left">
